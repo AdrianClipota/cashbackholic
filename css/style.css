@@ -94,7 +94,7 @@ a.login {
 	background: #FFFFFF;
 	border: 1px solid #770000;
 	text-decoration: none;
-	
+
 }
 
 a:hover.login {
@@ -117,7 +117,7 @@ a:hover.login {
 
 
 /* Top Menu
------------------------------------------------ */	
+----------------------------------------------- */
 .navbar-default .navbar-nav {
 	background: transparent;
 	border: none;
@@ -170,7 +170,7 @@ a:hover.login {
 
 
 /* Boxes
------------------------------------------------ */	
+----------------------------------------------- */
 .box {
 	width: 100%;
 	padding: 8px;
@@ -219,7 +219,7 @@ a:hover.login {
 
 
 /* Tables
------------------------------------------------ */	
+----------------------------------------------- */
 th {
 	font-size: 14px;
 	background: #F5F5F5;
@@ -289,7 +289,7 @@ th {
 
 
 /* LINKS
------------------------------------------------ */	
+----------------------------------------------- */
 a {
 	color: #3494CF;
 	text-decoration: none;
@@ -318,7 +318,7 @@ a.start_link {
 
 .start_link:hover {
 	background: #00A7E1;
-	
+
 }
 
 a.conditions {
@@ -415,15 +415,15 @@ a.go2store {
 
 a:hover.go2store {
 	color: #FFFFFF;
-	background: #0bb586 url('../images/goto.png') no-repeat center right 3px;
-	border: 1px solid #0bb586;
+	background: #001726 url('../images/goto.png') no-repeat center right 3px;
+	border: 1px solid #001726;
 	text-decoration: none;
 }
 
 a.go2store_b {
 	background: url('../images/arrow.png') no-repeat right 1px;
 	padding: 0px 18px 8px 0;
-	font-size: 13px; 
+	font-size: 13px;
 	color: #3494CF;
 	font-weight: bold;
 	white-space: nowrap;
@@ -479,11 +479,11 @@ a:hover.go2store_large {
 	z-index: 10000;
 	top: 77px;
 	display: none;
-	position: absolute; 
+	position: absolute;
 	font-size: 13px;
 	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
-	border: 1px solid #D8D8D8; 
-	padding: 5px; 
+	border: 1px solid #D8D8D8;
+	padding: 5px;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -564,7 +564,7 @@ a:hover.go2store_large {
 
 
 /* Message Box
------------------------------------------------ */	
+----------------------------------------------- */
 .info_msg, .success_msg, .error_msg, .login_msg {
 	background-repeat: no-repeat;
 	background-position: 8px center;
@@ -599,7 +599,7 @@ a:hover.go2store_large {
 	width: 100%;
 	text-align: center;
 	color: #FFFFFF;
-	background-color: #C1C0BF;
+	background-color: #001726;
 	padding: 10px;
 	font-weight: bold;
 }
@@ -767,7 +767,7 @@ li {
 
 
 /* Alphabet Order
------------------------------------------------ */	
+----------------------------------------------- */
 #alphabet {
 	margin: 5px 0 5px 0;
 	background-color: #F7F7F7;
@@ -808,13 +808,13 @@ li {
 	text-decoration: none;
 }
 
-#alphabet li a.active { 
-	background: #0bb586;
+#alphabet li a.active {
+	background: #001726;
 	color: #FFF;
 	padding: 2px 5px;
 }
 
-#alphabet li a:hover.active { 
+#alphabet li a:hover.active {
 	color: #FFF;
 	text-decoration: none;
 }
@@ -823,7 +823,7 @@ li {
 
 
 /* TEXT
------------------------------------------------ */	
+----------------------------------------------- */
 p {
 	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
 	font-size: 13px;
@@ -897,7 +897,7 @@ a:hover.stitle {
 	margin-left: 3px;
 }
 
-.username { 
+.username {
 	color: #000000;
 	font-weight: bold;
 }
@@ -1169,7 +1169,7 @@ a:hover .imgs {
 
 
 /* RETAILERS
------------------------------------------------ */	
+----------------------------------------------- */
 table {
 	border-collapse: collapse;
 }
@@ -1264,10 +1264,10 @@ table {
 }
 
 .item_store {
-	width: 100%; 
-	min-height: 110px; 
-	border: 1px solid #EEE; 
-	margin: 5px; 
+	width: 100%;
+	min-height: 110px;
+	border: 1px solid #EEE;
+	margin: 5px;
 	padding: 8px;
 }
 
@@ -1278,10 +1278,10 @@ table {
 
 .item_coupon {
 	width: 100%;
-	border: 1px dotted #EEE; 
-	background: #F9F9F9; 
-	margin-bottom: 10px; 
-	float: left; 
+	border: 1px dotted #EEE;
+	background: #F9F9F9;
+	margin-bottom: 10px;
+	float: left;
 	padding: 10px;
 
 }
@@ -1392,7 +1392,7 @@ a:hover.retailer_title_s {
 
 
 /* FORMS
------------------------------------------------ */	
+----------------------------------------------- */
 fieldset {
 	border: 1px solid #CCCCCC;
 	padding: 10px;
@@ -1433,7 +1433,7 @@ form {
 	cursor: pointer;
 	overflow: visible;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
-	-webkit-border-radius: .5em; 
+	-webkit-border-radius: .5em;
 	-moz-border-radius: .5em;
 	border-radius: .5em;
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
@@ -1467,7 +1467,7 @@ form {
 	cursor: pointer;
 	overflow: visible;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
-	-webkit-border-radius: .5em; 
+	-webkit-border-radius: .5em;
 	-moz-border-radius: .5em;
 	border-radius: .5em;
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
@@ -1601,7 +1601,7 @@ div.pagination a.text:hover {color: #000000;}
 
 .search_box {
 	width: 100%;
-	background: #F7F7F7; 
+	background: #F7F7F7;
 	margin: 5px 0;
 	padding: 8px 5px;
 	text-align: center;
@@ -1675,7 +1675,7 @@ div.pagination a.text:hover {color: #000000;}
 
 
 /* Tabs
------------------------------------------------ */	
+----------------------------------------------- */
 #tabs_wrapper {
 	width: 420px;
 }
@@ -1777,7 +1777,7 @@ div.pagination a.text:hover {color: #000000;}
 
 
 /* SCROLL
------------------------------------------------ */	
+----------------------------------------------- */
 /* Horizontal Orientation CSS */
 .jscarousal-horizontal
 {
@@ -1977,8 +1977,8 @@ div.pagination a.text:hover {color: #000000;}
 	border: 1px dashed #EEE;
 }
 
-.coupons-list .scissors {									
-	background: url('../images/icon_scissors.png') no-repeat;	
+.coupons-list .scissors {
+	background: url('../images/icon_scissors.png') no-repeat;
 	display: block;
 	height: 28px;
 	position: absolute;
@@ -2160,7 +2160,7 @@ a:hover.coupon_title {
 ----------------------------------------------- */
 .stores_list {
 	margin: 15px 0 0 0;
-	list-style-type: none; 
+	list-style-type: none;
 }
 
 .store2 {
@@ -2264,10 +2264,10 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {outline:none;}
 {
 	width:100%;
 	clear:both;
-	float:left; 
-	height: 180px; 
+	float:left;
+	height: 180px;
 	color: #FFF;
-	background: #770000; 
+	background: #770000;
 	margin-top: 20px;
 }
 
@@ -2308,7 +2308,7 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {outline:none;}
 	font-size:14px;
 	font-weight: 500;
 	margin-top: 5px;
-	
+
 }
 
 #footer .rss {
@@ -2327,7 +2327,7 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {outline:none;}
 	font-size: 13px;
 }
 
-#footer .powered-by-cashbackengine a { 
+#footer .powered-by-cashbackengine a {
 	color: #000;
 	font-weight: bold;
 	text-decoration: none;
@@ -2362,7 +2362,7 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {outline:none;}
 
 
 /* Social buttons
------------------------------------------------ */	
+----------------------------------------------- */
 #social {
 	margin: 10px 5px 5px 10px;
 	padding: 0;
