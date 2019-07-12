@@ -17,10 +17,10 @@
 	{
 		$settings[$setts_row['setting_key']] = $setts_row['setting_value'];
 	}
-
+	
 //Custom variables
 $settings['results_per_page']=33;
-$settings['SITE_URL']=https://www.cashbackholic.ro/;
+
 	define('SITE_TITLE', $settings['website_title']);
 	define('SITE_MAIL', $settings['website_email']);
 	define('EMAIL_FROM_NAME', $settings['email_from_name']);
@@ -97,7 +97,7 @@ $settings['SITE_URL']=https://www.cashbackholic.ro/;
 
 	if (REG_SOURCES != "" && strstr(REG_SOURCES, ',')) $reg_sources = explode(",",REG_SOURCES);
 
-	// letters for alphabetical order
+	// letters for alphabetical order 
 	$alphabet = array ("0-9","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z");
 
 	// results per page dropdown
