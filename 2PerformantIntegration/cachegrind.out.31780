@@ -1,0 +1,8335 @@
+version: 1
+creator: xdebug 2.6.1 (PHP 7.2.9-dev)
+cmd: C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\index.php
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(1) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\composer\autoload_real.php
+fn=(1) require_once::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\composer\autoload_real.php
+1 0 0
+
+fl=(2) php:internal
+fn=(2) php::spl_autoload_register
+22 0 416
+
+fl=(3) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\composer\ClassLoader.php
+fn=(3) require::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\composer\ClassLoader.php
+1 0 0
+
+fl=(1)
+fn=(4) ComposerAutoloaderInitefbdd0b51374a12c8acd23f6fc76071e::loadClassLoader
+9 19983 41960
+cfl=(3)
+cfn=(3)
+calls=1 0 0
+12 0 0
+
+fl=(2)
+fn=(5) php::spl_autoload_call
+23 0 0
+cfl=(1)
+cfn=(4)
+calls=1 0 0
+23 19983 41960
+
+fl=(2)
+fn=(6) php::{zend_pass}
+23 0 0
+
+fl=(2)
+fn=(7) php::spl_autoload_unregister
+24 0 -144
+
+fl=(2)
+fn=(8) php::function_exists
+26 0 0
+
+fl=(4) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\composer\autoload_static.php
+fn=(9) require_once::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\composer\autoload_static.php
+1 0 0
+
+fl=(2)
+fn=(10) php::Closure::bind
+82 0 536
+
+fl=(4)
+fn=(11) Composer\Autoload\ComposerStaticInitefbdd0b51374a12c8acd23f6fc76071e::getInitializer
+76 0 0
+cfl=(2)
+cfn=(10)
+calls=1 0 0
+82 0 536
+
+fl=(4)
+fn=(12) Composer\Autoload\ClassLoader::Composer\Autoload\{closure}
+78 0 -632
+
+fl=(2)
+fn=(2)
+302 0 112
+
+fl=(3)
+fn=(13) Composer\Autoload\ClassLoader->register
+300 0 0
+cfl=(2)
+cfn=(2)
+calls=1 0 0
+302 0 112
+
+fl=(2)
+fn=(8)
+4 0 0
+
+fl=(5) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\promises\src\functions.php
+fn=(14) require::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\promises\src\functions.php
+1 5 0
+
+fl=(6) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\promises\src\functions_include.php
+fn=(15) require::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\promises\src\functions_include.php
+1 13287 48480
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+4 0 0
+cfl=(5)
+cfn=(14)
+calls=1 0 0
+5 5 0
+
+fl=(1)
+fn=(16) composerRequireefbdd0b51374a12c8acd23f6fc76071e
+63 2029 824
+cfl=(6)
+cfn=(15)
+calls=1 0 0
+66 13292 48480
+
+fl=(2)
+fn=(8)
+4 0 0
+
+fl=(7) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\psr7\src\functions.php
+fn=(17) require::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\psr7\src\functions.php
+1 5 0
+
+fl=(8) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\psr7\src\functions_include.php
+fn=(18) require::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\psr7\src\functions_include.php
+1 15388 107408
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+4 0 0
+cfl=(7)
+cfn=(17)
+calls=1 0 0
+5 5 0
+
+fl=(1)
+fn=(16)
+63 14147 728
+cfl=(8)
+cfn=(18)
+calls=1 0 0
+66 15393 107408
+
+fl=(2)
+fn=(8)
+4 0 0
+
+fl=(9) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\functions.php
+fn=(19) require::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\functions.php
+1 0 0
+
+fl=(10) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\functions_include.php
+fn=(20) require::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\functions_include.php
+1 15608 36768
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+4 0 0
+cfl=(9)
+cfn=(19)
+calls=1 0 0
+5 0 0
+
+fl=(1)
+fn=(16)
+63 11192 296
+cfl=(10)
+cfn=(20)
+calls=1 0 0
+66 15608 36768
+
+fl=(1)
+fn=(21) ComposerAutoloaderInitefbdd0b51374a12c8acd23f6fc76071e::getLoader
+16 2068 10256
+cfl=(2)
+cfn=(2)
+calls=1 0 0
+22 0 416
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+23 19983 41960
+cfl=(2)
+cfn=(6)
+calls=1 0 0
+23 0 0
+cfl=(2)
+cfn=(7)
+calls=1 0 0
+24 0 -144
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+26 0 0
+cfl=(4)
+cfn=(9)
+calls=1 0 0
+28 0 0
+cfl=(4)
+cfn=(11)
+calls=1 0 0
+30 0 536
+cfl=(4)
+cfn=(12)
+calls=1 0 0
+30 0 -632
+cfl=(3)
+cfn=(13)
+calls=1 0 0
+48 0 112
+cfl=(1)
+cfn=(16)
+calls=1 0 0
+56 15321 49304
+cfl=(1)
+cfn=(16)
+calls=1 0 0
+56 29541 108136
+cfl=(1)
+cfn=(16)
+calls=1 0 0
+56 26800 37064
+
+fl=(11) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\autoload.php
+fn=(22) require::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\autoload.php
+1 6515 14016
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+5 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+7 93715 247008
+
+fl=(1)
+fn=(21)
+16 2 0
+
+fl=(11)
+fn=(22)
+1 36 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+7 2 0
+
+fl=(12) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\Config.php
+fn=(23) require::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\Config.php
+1 249 0
+cfl=(11)
+cfn=(22)
+calls=1 0 0
+12 39 0
+
+fl=(13) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\Utils.php
+fn=(24) require::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\Utils.php
+1 0 0
+
+fl=(14) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\Advertiser.php
+fn=(25) require::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\Advertiser.php
+1 3 0
+
+fl=(15) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\ConfigurationException.php
+fn=(26) require::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\ConfigurationException.php
+1 0 0
+
+fl=(16) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\TwoPerformantOperations.php
+fn=(27) require::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\TwoPerformantOperations.php
+1 53119 14144
+cfl=(11)
+cfn=(22)
+calls=1 0 0
+10 100231 261024
+cfl=(12)
+cfn=(23)
+calls=1 0 0
+11 288 0
+cfl=(13)
+cfn=(24)
+calls=1 0 0
+12 0 0
+cfl=(14)
+cfn=(25)
+calls=1 0 0
+13 3 0
+cfl=(15)
+cfn=(26)
+calls=1 0 0
+14 0 0
+
+fl=(2)
+fn=(28) php::strtr
+373 0 32
+
+fl=(2)
+fn=(29) php::strrpos
+378 0 0
+
+fl=(2)
+fn=(30) php::substr
+379 0 24
+
+fl=(2)
+fn=(30)
+382 0 32
+
+fl=(2)
+fn=(31) php::file_exists
+384 0 0
+
+fl=(3)
+fn=(32) Composer\Autoload\ClassLoader->findFileWithExtension
+370 0 40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 32
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 24
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 32
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33) Composer\Autoload\ClassLoader->findFile
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 128
+
+fl=(17) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\vlucas\phpdotenv\src\Dotenv.php
+fn=(34) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\vlucas\phpdotenv\src\Dotenv.php
+1 0 0
+
+fl=(3)
+fn=(35) Composer\Autoload\includeFile
+442 15621 9680
+cfl=(17)
+cfn=(34)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36) Composer\Autoload\ClassLoader->loadClass
+319 0 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 128
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 15621 9680
+
+fl=(2)
+fn=(5)
+23 0 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+23 15621 9680
+
+fl=(2)
+fn=(37) php::is_string
+88 0 0
+
+fl=(2)
+fn=(38) php::rtrim
+92 0 0
+
+fl=(17)
+fn=(39) Dotenv\Dotenv->getFilePath
+86 0 80
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+88 0 0
+cfl=(2)
+cfn=(38)
+calls=1 0 0
+92 0 0
+
+fl=(2)
+fn=(28)
+373 0 32
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 24
+
+fl=(2)
+fn=(30)
+382 0 32
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 32
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 24
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 32
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 128
+
+fl=(18) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\vlucas\phpdotenv\src\Loader.php
+fn=(40) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\vlucas\phpdotenv\src\Loader.php
+1 0 0
+
+fl=(3)
+fn=(35)
+442 15632 38736
+cfl=(18)
+cfn=(40)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36)
+319 0 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 128
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 15632 38736
+
+fl=(2)
+fn=(5)
+40 0 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+40 15632 38736
+
+fl=(18)
+fn=(41) Dotenv\Loader->__construct
+46 0 0
+
+fl=(17)
+fn=(42) Dotenv\Dotenv->__construct
+37 0 128
+cfl=(17)
+cfn=(39)
+calls=1 0 0
+39 0 80
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+40 15632 38736
+cfl=(18)
+cfn=(41)
+calls=1 0 0
+40 0 0
+
+fl=(18)
+fn=(43) Dotenv\Loader->setImmutable
+58 0 0
+
+fl=(2)
+fn=(44) php::is_readable
+104 0 0
+
+fl=(2)
+fn=(45) php::is_file
+104 0 64
+
+fl=(18)
+fn=(46) Dotenv\Loader->ensureFileIsReadable
+102 0 0
+cfl=(2)
+cfn=(44)
+calls=1 0 0
+104 0 0
+cfl=(2)
+cfn=(45)
+calls=1 0 0
+104 0 64
+
+fl=(2)
+fn=(47) php::ini_get
+161 0 0
+
+fl=(2)
+fn=(48) php::ini_set
+162 0 272
+
+fl=(2)
+fn=(49) php::file
+163 3098 512
+
+fl=(2)
+fn=(48)
+164 6 0
+
+fl=(18)
+fn=(50) Dotenv\Loader->readLinesFromFile
+158 82 0
+cfl=(2)
+cfn=(47)
+calls=1 0 0
+161 0 0
+cfl=(2)
+cfn=(48)
+calls=1 0 0
+162 0 272
+cfl=(2)
+cfn=(49)
+calls=1 0 0
+163 3098 512
+cfl=(2)
+cfn=(48)
+calls=1 0 0
+164 6 0
+
+fl=(2)
+fn=(51) php::ltrim
+178 0 0
+
+fl=(18)
+fn=(52) Dotenv\Loader->isComment
+176 27 0
+cfl=(2)
+cfn=(51)
+calls=1 0 0
+178 0 0
+
+fl=(2)
+fn=(51)
+178 0 0
+
+fl=(18)
+fn=(52)
+176 21 0
+cfl=(2)
+cfn=(51)
+calls=1 0 0
+178 0 0
+
+fl=(2)
+fn=(53) php::strpos
+192 2 0
+
+fl=(18)
+fn=(54) Dotenv\Loader->looksLikeSetter
+190 47 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+192 2 0
+
+fl=(2)
+fn=(53)
+208 0 0
+
+fl=(2)
+fn=(55) php::explode
+209 5 344
+
+fl=(2)
+fn=(56) php::trim
+209 0 24
+
+fl=(2)
+fn=(56)
+209 0 48
+
+fl=(2)
+fn=(57) php::array_map
+209 46 272
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+209 0 24
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+209 0 48
+
+fl=(18)
+fn=(58) Dotenv\Loader->splitCompoundStringIntoParts
+206 79 -344
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+208 0 0
+cfl=(2)
+cfn=(55)
+calls=1 0 0
+209 5 344
+cfl=(2)
+cfn=(57)
+calls=1 0 0
+209 46 344
+
+fl=(2)
+fn=(59) php::str_replace
+311 6 0
+
+fl=(2)
+fn=(56)
+311 0 0
+
+fl=(18)
+fn=(60) Dotenv\Loader->sanitiseVariableName
+309 44 272
+cfl=(2)
+cfn=(59)
+calls=1 0 0
+311 6 0
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+311 0 0
+
+fl=(2)
+fn=(56)
+227 0 0
+
+fl=(18)
+fn=(61) Dotenv\Loader->beginsWithAQuote
+323 2 0
+
+fl=(2)
+fn=(62) php::sprintf
+247 17 1024
+
+fl=(2)
+fn=(63) php::preg_replace
+249 339 64
+
+fl=(2)
+fn=(59)
+250 1 0
+
+fl=(2)
+fn=(59)
+251 0 0
+
+fl=(2)
+fn=(56)
+267 0 0
+
+fl=(18)
+fn=(64) Dotenv\Loader->sanitiseVariableValue
+225 171 -752
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+227 0 0
+cfl=(18)
+cfn=(61)
+calls=1 0 0
+232 2 0
+cfl=(2)
+cfn=(62)
+calls=1 0 0
+247 17 1024
+cfl=(2)
+cfn=(63)
+calls=1 0 0
+249 339 64
+cfl=(2)
+cfn=(59)
+calls=1 0 0
+250 1 0
+cfl=(2)
+cfn=(59)
+calls=1 0 0
+251 0 0
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+267 0 0
+
+fl=(18)
+fn=(65) Dotenv\Loader->processFilters
+142 138 -592
+cfl=(18)
+cfn=(58)
+calls=1 0 0
+144 132 344
+cfl=(18)
+cfn=(60)
+calls=1 0 0
+145 51 272
+cfl=(18)
+cfn=(64)
+calls=1 0 0
+146 532 336
+
+fl=(2)
+fn=(53)
+282 0 0
+
+fl=(18)
+fn=(66) Dotenv\Loader->resolveNestedVariables
+280 21 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+282 0 0
+
+fl=(18)
+fn=(67) Dotenv\Loader->normaliseEnvironmentVariable
+123 68 0
+cfl=(18)
+cfn=(65)
+calls=1 0 0
+125 854 360
+cfl=(18)
+cfn=(66)
+calls=1 0 0
+127 21 0
+
+fl=(2)
+fn=(68) php::array_key_exists
+338 0 0
+
+fl=(2)
+fn=(68)
+340 0 0
+
+fl=(2)
+fn=(69) php::getenv
+343 11 0
+
+fl=(18)
+fn=(70) Dotenv\Loader->getEnvironmentVariable
+335 68 0
+cfl=(2)
+cfn=(68)
+calls=1 0 0
+338 0 0
+cfl=(2)
+cfn=(68)
+calls=1 0 0
+340 0 0
+cfl=(2)
+cfn=(69)
+calls=1 0 0
+343 11 0
+
+fl=(2)
+fn=(8)
+377 1 0
+
+fl=(2)
+fn=(8)
+381 2 0
+
+fl=(2)
+fn=(71) php::putenv
+382 22 328
+
+fl=(18)
+fn=(72) Dotenv\Loader->setEnvironmentVariable
+363 158 4368
+cfl=(18)
+cfn=(67)
+calls=1 0 0
+365 944 360
+cfl=(18)
+cfn=(70)
+calls=1 0 0
+371 81 0
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+377 1 0
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+381 2 0
+cfl=(2)
+cfn=(71)
+calls=1 0 0
+382 22 328
+
+fl=(2)
+fn=(51)
+178 0 0
+
+fl=(18)
+fn=(52)
+176 21 0
+cfl=(2)
+cfn=(51)
+calls=1 0 0
+178 0 0
+
+fl=(2)
+fn=(53)
+192 0 0
+
+fl=(18)
+fn=(54)
+190 20 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+192 0 0
+
+fl=(2)
+fn=(53)
+208 0 0
+
+fl=(2)
+fn=(55)
+209 0 344
+
+fl=(2)
+fn=(56)
+209 1 32
+
+fl=(2)
+fn=(56)
+209 1 40
+
+fl=(2)
+fn=(57)
+209 36 272
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+209 1 32
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+209 1 40
+
+fl=(18)
+fn=(58)
+206 71 -344
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+208 0 0
+cfl=(2)
+cfn=(55)
+calls=1 0 0
+209 0 344
+cfl=(2)
+cfn=(57)
+calls=1 0 0
+209 39 344
+
+fl=(2)
+fn=(59)
+311 1 0
+
+fl=(2)
+fn=(56)
+311 0 0
+
+fl=(18)
+fn=(60)
+309 38 272
+cfl=(2)
+cfn=(59)
+calls=1 0 0
+311 1 0
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+311 0 0
+
+fl=(2)
+fn=(56)
+227 0 0
+
+fl=(18)
+fn=(61)
+323 2 0
+
+fl=(2)
+fn=(62)
+247 8 1024
+
+fl=(2)
+fn=(63)
+249 2 56
+
+fl=(2)
+fn=(59)
+250 0 0
+
+fl=(2)
+fn=(59)
+251 1 0
+
+fl=(2)
+fn=(56)
+267 0 0
+
+fl=(18)
+fn=(64)
+225 195 -752
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+227 0 0
+cfl=(18)
+cfn=(61)
+calls=1 0 0
+232 2 0
+cfl=(2)
+cfn=(62)
+calls=1 0 0
+247 8 1024
+cfl=(2)
+cfn=(63)
+calls=1 0 0
+249 2 56
+cfl=(2)
+cfn=(59)
+calls=1 0 0
+250 0 0
+cfl=(2)
+cfn=(59)
+calls=1 0 0
+251 1 0
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+267 0 0
+
+fl=(18)
+fn=(65)
+142 151 -584
+cfl=(18)
+cfn=(58)
+calls=1 0 0
+144 112 344
+cfl=(18)
+cfn=(60)
+calls=1 0 0
+145 40 272
+cfl=(18)
+cfn=(64)
+calls=1 0 0
+146 212 328
+
+fl=(2)
+fn=(53)
+282 0 0
+
+fl=(18)
+fn=(66)
+280 20 0
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+282 0 0
+
+fl=(18)
+fn=(67)
+123 65 0
+cfl=(18)
+cfn=(65)
+calls=1 0 0
+125 516 360
+cfl=(18)
+cfn=(66)
+calls=1 0 0
+127 20 0
+
+fl=(2)
+fn=(68)
+338 0 0
+
+fl=(2)
+fn=(68)
+340 0 0
+
+fl=(2)
+fn=(69)
+343 10 0
+
+fl=(18)
+fn=(70)
+335 56 0
+cfl=(2)
+cfn=(68)
+calls=1 0 0
+338 0 0
+cfl=(2)
+cfn=(68)
+calls=1 0 0
+340 0 0
+cfl=(2)
+cfn=(69)
+calls=1 0 0
+343 10 0
+
+fl=(2)
+fn=(8)
+377 0 0
+
+fl=(2)
+fn=(8)
+381 0 0
+
+fl=(2)
+fn=(71)
+382 29 112
+
+fl=(18)
+fn=(72)
+363 125 -272
+cfl=(18)
+cfn=(67)
+calls=1 0 0
+365 602 360
+cfl=(18)
+cfn=(70)
+calls=1 0 0
+371 67 0
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+377 0 0
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+381 0 0
+cfl=(2)
+cfn=(71)
+calls=1 0 0
+382 29 112
+
+fl=(18)
+fn=(73) Dotenv\Loader->load
+80 288 0
+cfl=(18)
+cfn=(46)
+calls=1 0 0
+82 0 64
+cfl=(18)
+cfn=(50)
+calls=1 0 0
+85 3188 784
+cfl=(18)
+cfn=(52)
+calls=1 0 0
+87 28 0
+cfl=(18)
+cfn=(52)
+calls=1 0 0
+87 21 0
+cfl=(18)
+cfn=(54)
+calls=1 0 0
+87 50 0
+cfl=(18)
+cfn=(72)
+calls=1 0 0
+88 1210 5056
+cfl=(18)
+cfn=(52)
+calls=1 0 0
+87 21 0
+cfl=(18)
+cfn=(54)
+calls=1 0 0
+87 20 0
+cfl=(18)
+cfn=(72)
+calls=1 0 0
+88 825 200
+
+fl=(17)
+fn=(74) Dotenv\Dotenv->loadData
+104 60 0
+cfl=(18)
+cfn=(43)
+calls=1 0 0
+106 0 0
+cfl=(18)
+cfn=(73)
+calls=1 0 0
+106 5655 6104
+
+fl=(17)
+fn=(75) Dotenv\Dotenv->load
+48 27 -408
+cfl=(17)
+cfn=(74)
+calls=1 0 0
+50 5715 6104
+
+fl=(2)
+fn=(69)
+25 5 40
+
+fl=(12)
+fn=(76) App\Config\Config->setEmail
+30 6 0
+
+fl=(2)
+fn=(69)
+26 4 40
+
+fl=(12)
+fn=(77) App\Config\Config->setPassword
+35 1 0
+
+fl=(12)
+fn=(78) App\Config\Config->__construct
+21 111 -432
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+23 15621 9680
+cfl=(17)
+cfn=(42)
+calls=1 0 0
+23 15632 38944
+cfl=(17)
+cfn=(75)
+calls=1 0 0
+24 5743 5696
+cfl=(2)
+cfn=(69)
+calls=1 0 0
+25 5 40
+cfl=(12)
+cfn=(76)
+calls=1 0 0
+25 6 0
+cfl=(2)
+cfn=(69)
+calls=1 0 0
+26 4 40
+cfl=(12)
+cfn=(77)
+calls=1 0 0
+26 1 0
+
+fl=(2)
+fn=(28)
+373 0 32
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 24
+
+fl=(2)
+fn=(30)
+382 1 32
+
+fl=(2)
+fn=(31)
+384 9596 0
+
+fl=(3)
+fn=(32)
+370 81 72
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 32
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 24
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 1 32
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 9596 0
+
+fl=(3)
+fn=(33)
+335 6 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 9680 160
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 24
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 367 0
+
+fl=(3)
+fn=(32)
+370 97 24
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 24
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 367 0
+
+fl=(3)
+fn=(33)
+335 39 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 467 128
+
+fl=(19) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\psr\log\Psr\Log\LoggerInterface.php
+fn=(79) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\psr\log\Psr\Log\LoggerInterface.php
+1 0 0
+
+fl=(3)
+fn=(35)
+442 25760 6688
+cfl=(19)
+cfn=(79)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36)
+319 30 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 506 128
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 25760 6688
+
+fl=(2)
+fn=(5)
+27 5 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+27 26297 6688
+
+fl=(20) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\monolog\monolog\src\Monolog\Logger.php
+fn=(80) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\monolog\monolog\src\Monolog\Logger.php
+1 6 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+27 26302 6688
+
+fl=(3)
+fn=(35)
+442 11561 85328
+cfl=(20)
+cfn=(80)
+calls=1 0 0
+444 26309 6696
+
+fl=(3)
+fn=(36)
+319 4 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 9687 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 37870 92024
+
+fl=(2)
+fn=(5)
+14 5 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+14 47562 92024
+
+fl=(20)
+fn=(81) Monolog\Logger->__construct
+141 0 0
+
+fl=(16)
+fn=(82) App\Integration\TwoPerformantOperations->__construct
+31 0 0
+
+fl=(2)
+fn=(6)
+15 0 0
+
+fl=(2)
+fn=(83) php::header
+17 0 24
+
+fl=(20)
+fn=(81)
+141 0 0
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 24
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 8
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 24
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(2)
+fn=(28)
+373 0 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 24
+
+fl=(2)
+fn=(30)
+382 0 56
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 -16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 24
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 56
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 24
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 8
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 24
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 24
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 24
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(21) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\monolog\monolog\src\Monolog\Handler\HandlerInterface.php
+fn=(84) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\monolog\monolog\src\Monolog\Handler\HandlerInterface.php
+1 0 0
+
+fl=(3)
+fn=(35)
+442 15614 4472
+cfl=(21)
+cfn=(84)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36)
+319 0 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 15614 4472
+
+fl=(2)
+fn=(5)
+23 0 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+23 15614 4472
+
+fl=(22) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\monolog\monolog\src\Monolog\Handler\AbstractHandler.php
+fn=(85) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\monolog\monolog\src\Monolog\Handler\AbstractHandler.php
+1 0 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+23 15614 4472
+
+fl=(3)
+fn=(35)
+442 0 12240
+cfl=(22)
+cfn=(85)
+calls=1 0 0
+444 15614 4480
+
+fl=(3)
+fn=(36)
+319 0 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 15614 16720
+
+fl=(2)
+fn=(5)
+22 0 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+22 15614 16720
+
+fl=(23) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\monolog\monolog\src\Monolog\Handler\AbstractProcessingHandler.php
+fn=(86) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\monolog\monolog\src\Monolog\Handler\AbstractProcessingHandler.php
+1 0 968
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+22 15614 16720
+
+fl=(3)
+fn=(35)
+442 0 4304
+cfl=(23)
+cfn=(86)
+calls=1 0 0
+444 15614 17688
+
+fl=(3)
+fn=(36)
+319 0 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 15614 21992
+
+fl=(2)
+fn=(5)
+23 0 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+23 15614 21992
+
+fl=(24) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\monolog\monolog\src\Monolog\Handler\StreamHandler.php
+fn=(87) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\monolog\monolog\src\Monolog\Handler\StreamHandler.php
+1 0 744
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+23 15614 21992
+
+fl=(3)
+fn=(35)
+442 0 21376
+cfl=(24)
+cfn=(87)
+calls=1 0 0
+444 15614 22736
+
+fl=(3)
+fn=(36)
+319 0 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 15614 44112
+
+fl=(2)
+fn=(5)
+40 0 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+40 15614 44112
+
+fl=(2)
+fn=(37)
+476 0 0
+
+fl=(20)
+fn=(88) Monolog\Logger::toMonologLevel
+474 0 0
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+476 0 0
+
+fl=(22)
+fn=(89) Monolog\Handler\StreamHandler->setLevel
+124 0 0
+cfl=(20)
+cfn=(88)
+calls=1 0 0
+126 0 0
+
+fl=(22)
+fn=(90) Monolog\Handler\StreamHandler->__construct
+38 0 0
+cfl=(22)
+cfn=(89)
+calls=1 0 0
+40 0 0
+
+fl=(2)
+fn=(91) php::is_resource
+45 0 0
+
+fl=(2)
+fn=(37)
+47 0 0
+
+fl=(24)
+fn=(90)
+42 0 0
+cfl=(22)
+cfn=(90)
+calls=1 0 0
+44 0 0
+cfl=(2)
+cfn=(91)
+calls=1 0 0
+45 0 0
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+47 0 0
+
+fl=(2)
+fn=(92) php::array_unshift
+177 0 272
+
+fl=(20)
+fn=(93) Monolog\Logger->pushHandler
+175 0 24
+cfl=(2)
+cfn=(92)
+calls=1 0 0
+177 0 272
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 32
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 8
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 32
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 -8
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(25) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\2performant\2performant-php\src\HTTP\AuthInterface.php
+fn=(94) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\2performant\2performant-php\src\HTTP\AuthInterface.php
+1 4 0
+
+fl=(3)
+fn=(35)
+442 1710 1024
+cfl=(25)
+cfn=(94)
+calls=1 0 0
+444 4 0
+
+fl=(3)
+fn=(36)
+319 16 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 1714 1024
+
+fl=(2)
+fn=(5)
+10 20 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+10 1731 1024
+
+fl=(26) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\2performant\2performant-php\src\HTTP\User.php
+fn=(95) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\2performant\2performant-php\src\HTTP\User.php
+1 16 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+10 1751 1024
+
+fl=(3)
+fn=(35)
+442 19 10488
+cfl=(26)
+cfn=(95)
+calls=1 0 0
+444 1768 1032
+
+fl=(3)
+fn=(36)
+319 15 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 1787 11520
+
+fl=(2)
+fn=(5)
+23 16 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+23 1802 11520
+
+fl=(27) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\2performant\2performant-php\src\HTTP\Affiliate.php
+fn=(96) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\2performant\2performant-php\src\HTTP\Affiliate.php
+1 18 744
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+23 1819 11520
+
+fl=(3)
+fn=(35)
+442 15650 16184
+cfl=(27)
+cfn=(96)
+calls=1 0 0
+444 1837 12264
+
+fl=(3)
+fn=(36)
+319 13 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 17488 28448
+
+fl=(2)
+fn=(5)
+45 17 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+45 17501 28448
+
+fl=(12)
+fn=(97) App\Config\Config->getEmail
+40 0 0
+
+fl=(12)
+fn=(98) App\Config\Config->getPassword
+45 0 0
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 1 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 24
+
+fl=(2)
+fn=(31)
+384 166 0
+
+fl=(3)
+fn=(32)
+370 82 64
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 1 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 24
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 166 0
+
+fl=(3)
+fn=(33)
+335 34 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 252 160
+
+fl=(28) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\2performant\2performant-php\src\Api.php
+fn=(99) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\2performant\2performant-php\src\Api.php
+1 0 0
+
+fl=(3)
+fn=(35)
+442 28864 60208
+cfl=(28)
+cfn=(99)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36)
+319 19 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 286 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 28864 60208
+
+fl=(2)
+fn=(5)
+101 4 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+101 29170 60208
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 32
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 24
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 32
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 128
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(29) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\ClientInterface.php
+fn=(100) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\ClientInterface.php
+1 0 0
+
+fl=(3)
+fn=(35)
+442 15637 5144
+cfl=(29)
+cfn=(100)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36)
+319 0 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 15637 5144
+
+fl=(2)
+fn=(5)
+25 0 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+25 15637 5144
+
+fl=(30) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Client.php
+fn=(101) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Client.php
+1 0 232
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+25 15637 5144
+
+fl=(3)
+fn=(35)
+442 15307 53368
+cfl=(30)
+cfn=(101)
+calls=1 0 0
+444 15637 5376
+
+fl=(3)
+fn=(36)
+319 0 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 128
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 30945 58744
+
+fl=(2)
+fn=(5)
+61 0 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+61 30945 58744
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 48
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(31) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\HandlerStack.php
+fn=(102) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\HandlerStack.php
+1 0 0
+
+fl=(3)
+fn=(35)
+442 0 27712
+cfl=(31)
+cfn=(102)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36)
+319 0 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 0 27712
+
+fl=(2)
+fn=(5)
+65 0 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+65 0 27712
+
+fl=(2)
+fn=(8)
+106 0 0
+
+fl=(2)
+fn=(8)
+106 0 0
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(32) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php
+fn=(103) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php
+1 3 0
+
+fl=(3)
+fn=(35)
+442 3687 5592
+cfl=(32)
+cfn=(103)
+calls=1 0 0
+444 3 0
+
+fl=(3)
+fn=(36)
+319 30 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 3690 5592
+
+fl=(2)
+fn=(5)
+107 22 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+107 3720 5592
+
+fl=(2)
+fn=(28)
+373 2 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 146 0
+
+fl=(3)
+fn=(32)
+370 147 -16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 2 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 146 0
+
+fl=(3)
+fn=(33)
+335 56 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 298 160
+
+fl=(33) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Handler\CurlMultiHandler.php
+fn=(104) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Handler\CurlMultiHandler.php
+1 2 0
+
+fl=(3)
+fn=(35)
+442 1839 24248
+cfl=(33)
+cfn=(104)
+calls=1 0 0
+444 2 0
+
+fl=(3)
+fn=(36)
+319 38 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 355 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 1842 24248
+
+fl=(2)
+fn=(5)
+107 23 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+107 2235 24248
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 1 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 9393 0
+
+fl=(3)
+fn=(32)
+370 159 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 1 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 9393 0
+
+fl=(3)
+fn=(33)
+335 5 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 9555 160
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 56
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 -24
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 56
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(34) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Handler\CurlFactoryInterface.php
+fn=(105) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Handler\CurlFactoryInterface.php
+1 3 0
+
+fl=(3)
+fn=(35)
+442 6196 1720
+cfl=(34)
+cfn=(105)
+calls=1 0 0
+444 3 0
+
+fl=(3)
+fn=(36)
+319 18 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 6199 1720
+
+fl=(2)
+fn=(5)
+15 20 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+15 6217 1720
+
+fl=(35) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php
+fn=(106) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php
+1 21 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+15 6237 1720
+
+fl=(3)
+fn=(35)
+442 15658 155528
+cfl=(35)
+cfn=(106)
+calls=1 0 0
+444 6259 1728
+
+fl=(3)
+fn=(36)
+319 17 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 9560 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 21918 157256
+
+fl=(2)
+fn=(5)
+39 20 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+39 31496 157256
+
+fl=(35)
+fn=(107) GuzzleHttp\Handler\CurlFactory->__construct
+26 0 0
+
+fl=(33)
+fn=(108) GuzzleHttp\Handler\CurlMultiHandler->__construct
+36 9305 104
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+39 31517 157256
+cfl=(35)
+cfn=(107)
+calls=1 0 0
+39 0 0
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(36) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php
+fn=(109) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php
+1 2 0
+
+fl=(3)
+fn=(35)
+442 3220 4544
+cfl=(36)
+cfn=(109)
+calls=1 0 0
+444 2 0
+
+fl=(3)
+fn=(36)
+319 18 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 3223 4544
+
+fl=(2)
+fn=(5)
+107 25 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+107 3242 4544
+
+fl=(35)
+fn=(107)
+26 0 0
+
+fl=(36)
+fn=(110) GuzzleHttp\Handler\CurlHandler->__construct
+26 18 104
+cfl=(35)
+cfn=(107)
+calls=1 0 0
+30 0 0
+
+fl=(32)
+fn=(111) GuzzleHttp\Handler\Proxy::wrapSync
+21 7 496
+
+fl=(2)
+fn=(47)
+114 1 0
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 1 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 163 0
+
+fl=(3)
+fn=(32)
+370 103 -16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 1 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 163 0
+
+fl=(3)
+fn=(33)
+335 42 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 270 160
+
+fl=(37) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Handler\StreamHandler.php
+fn=(112) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Handler\StreamHandler.php
+1 0 0
+
+fl=(3)
+fn=(35)
+442 25460 139344
+cfl=(37)
+cfn=(112)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36)
+319 20 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 313 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 25460 139344
+
+fl=(2)
+fn=(5)
+116 4 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+116 25794 139344
+
+fl=(2)
+fn=(6)
+116 0 0
+
+fl=(32)
+fn=(113) GuzzleHttp\Handler\Proxy::wrapStreaming
+45 0 496
+
+fl=(9)
+fn=(114) GuzzleHttp\choose_handler
+103 131 352
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+106 0 0
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+106 0 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+107 3743 5592
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+107 2259 24248
+cfl=(33)
+cfn=(108)
+calls=1 0 0
+107 40822 157360
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+107 3268 4544
+cfl=(36)
+cfn=(110)
+calls=1 0 0
+107 19 104
+cfl=(32)
+cfn=(111)
+calls=1 0 0
+107 7 496
+cfl=(2)
+cfn=(47)
+calls=1 0 0
+114 1 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+116 25798 139344
+cfl=(2)
+cfn=(6)
+calls=1 0 0
+116 0 0
+cfl=(32)
+cfn=(113)
+calls=1 0 0
+116 0 496
+
+fl=(31)
+fn=(115) GuzzleHttp\HandlerStack->__construct
+52 0 0
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 32
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 24
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 32
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 128
+
+fl=(38) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Middleware.php
+fn=(116) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Middleware.php
+1 3 0
+
+fl=(3)
+fn=(35)
+442 17036 40096
+cfl=(38)
+cfn=(116)
+calls=1 0 0
+444 3 0
+
+fl=(3)
+fn=(36)
+319 18 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 128
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 17040 40096
+
+fl=(2)
+fn=(5)
+41 20 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+41 17058 40096
+
+fl=(38)
+fn=(117) GuzzleHttp\Middleware::httpErrors
+53 2 224
+
+fl=(31)
+fn=(118) GuzzleHttp\HandlerStack->push
+139 9 496
+
+fl=(38)
+fn=(119) GuzzleHttp\Middleware::redirect
+147 1 224
+
+fl=(31)
+fn=(118)
+139 2 272
+
+fl=(38)
+fn=(120) GuzzleHttp\Middleware::cookies
+25 0 224
+
+fl=(31)
+fn=(118)
+139 0 272
+
+fl=(38)
+fn=(121) GuzzleHttp\Middleware::prepareBody
+215 0 224
+
+fl=(31)
+fn=(118)
+139 0 272
+
+fl=(31)
+fn=(122) GuzzleHttp\HandlerStack::create
+38 137 128
+cfl=(9)
+cfn=(114)
+calls=1 0 0
+40 76051 332536
+cfl=(31)
+cfn=(115)
+calls=1 0 0
+40 0 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+41 17078 40096
+cfl=(38)
+cfn=(117)
+calls=1 0 0
+41 2 224
+cfl=(31)
+cfn=(118)
+calls=1 0 0
+41 9 496
+cfl=(38)
+cfn=(119)
+calls=1 0 0
+42 1 224
+cfl=(31)
+cfn=(118)
+calls=1 0 0
+42 2 272
+cfl=(38)
+cfn=(120)
+calls=1 0 0
+43 0 224
+cfl=(31)
+cfn=(118)
+calls=1 0 0
+43 0 272
+cfl=(38)
+cfn=(121)
+calls=1 0 0
+44 0 224
+cfl=(31)
+cfn=(118)
+calls=1 0 0
+44 0 272
+
+fl=(2)
+fn=(37)
+58 0 0
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 24
+
+fl=(2)
+fn=(31)
+384 280 0
+
+fl=(3)
+fn=(32)
+370 75 32
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 24
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 280 0
+
+fl=(3)
+fn=(33)
+335 35 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 360 128
+
+fl=(2)
+fn=(28)
+373 1 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 9437 0
+
+fl=(3)
+fn=(32)
+370 76 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 1 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 9437 0
+
+fl=(3)
+fn=(33)
+335 5 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 9516 128
+
+fl=(39) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\psr\http-message\src\UriInterface.php
+fn=(123) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\psr\http-message\src\UriInterface.php
+1 2 0
+
+fl=(3)
+fn=(35)
+442 3494 16632
+cfl=(39)
+cfn=(123)
+calls=1 0 0
+444 2 0
+
+fl=(3)
+fn=(36)
+319 21 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 9521 128
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 3496 16632
+
+fl=(2)
+fn=(5)
+13 24 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+13 13040 16632
+
+fl=(40) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\psr7\src\Uri.php
+fn=(124) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\psr7\src\Uri.php
+1 25 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+13 13064 16632
+
+fl=(3)
+fn=(35)
+442 19674 66848
+cfl=(40)
+cfn=(124)
+calls=1 0 0
+444 13090 16640
+
+fl=(3)
+fn=(36)
+319 35 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 395 128
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 32764 83488
+
+fl=(2)
+fn=(5)
+59 19 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+59 33195 83488
+
+fl=(2)
+fn=(125) php::parse_url
+69 10 336
+
+fl=(2)
+fn=(37)
+577 0 0
+
+fl=(2)
+fn=(126) php::strtolower
+581 0 0
+
+fl=(40)
+fn=(127) GuzzleHttp\Psr7\Uri->filterScheme
+575 27 0
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+577 0 0
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+581 0 0
+
+fl=(2)
+fn=(37)
+593 0 0
+
+fl=(2)
+fn=(126)
+597 0 0
+
+fl=(40)
+fn=(128) GuzzleHttp\Psr7\Uri->filterHost
+591 25 0
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+593 0 0
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+597 0 0
+
+fl=(40)
+fn=(129) GuzzleHttp\Psr7\Uri->removeDefaultPort
+623 2 0
+
+fl=(40)
+fn=(130) GuzzleHttp\Psr7\Uri->applyParts
+540 58 -144
+cfl=(40)
+cfn=(127)
+calls=1 0 0
+543 28 0
+cfl=(40)
+cfn=(128)
+calls=1 0 0
+547 25 0
+cfl=(40)
+cfn=(129)
+calls=1 0 0
+565 2 0
+
+fl=(40)
+fn=(131) GuzzleHttp\Psr7\Uri->__construct
+65 42 -272
+cfl=(2)
+cfn=(125)
+calls=1 0 0
+69 10 336
+cfl=(40)
+cfn=(130)
+calls=1 0 0
+73 115 -144
+
+fl=(7)
+fn=(132) GuzzleHttp\Psr7\uri_for
+54 53 304
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+58 0 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+59 33214 83488
+cfl=(40)
+cfn=(131)
+calls=1 0 0
+59 168 -80
+
+fl=(2)
+fn=(28)
+373 1 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 185 0
+
+fl=(3)
+fn=(32)
+370 73 40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 1 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 185 0
+
+fl=(3)
+fn=(33)
+335 31 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 261 160
+
+fl=(41) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php
+fn=(133) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php
+1 2 0
+
+fl=(3)
+fn=(35)
+442 13561 25936
+cfl=(41)
+cfn=(133)
+calls=1 0 0
+444 2 0
+
+fl=(3)
+fn=(36)
+319 40 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 293 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 13564 25936
+
+fl=(2)
+fn=(5)
+161 26 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+161 13897 25936
+
+fl=(2)
+fn=(134) php::php_sapi_name
+173 10 24
+
+fl=(2)
+fn=(69)
+173 17 0
+
+fl=(2)
+fn=(69)
+177 2 0
+
+fl=(2)
+fn=(69)
+181 2 0
+
+fl=(2)
+fn=(135) php::array_keys
+197 2 272
+
+fl=(2)
+fn=(126)
+198 1 32
+
+fl=(30)
+fn=(136) GuzzleHttp\Client->configureDefaults
+158 127 168
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+161 13923 25936
+cfl=(2)
+cfn=(134)
+calls=1 0 0
+173 10 24
+cfl=(2)
+cfn=(69)
+calls=1 0 0
+173 17 0
+cfl=(2)
+cfn=(69)
+calls=1 0 0
+177 2 0
+cfl=(2)
+cfn=(69)
+calls=1 0 0
+181 2 0
+cfl=(2)
+cfn=(135)
+calls=1 0 0
+197 2 272
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+198 1 32
+
+fl=(30)
+fn=(137) GuzzleHttp\Client->__construct
+62 113 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+65 0 27712
+cfl=(31)
+cfn=(122)
+calls=1 0 0
+65 93285 374968
+cfl=(7)
+cfn=(132)
+calls=1 0 0
+72 33437 83712
+cfl=(30)
+cfn=(136)
+calls=1 0 0
+75 14087 26432
+
+fl=(28)
+fn=(138) TPerformant\API\Api->__construct
+44 28 368
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+61 30945 58744
+cfl=(30)
+cfn=(137)
+calls=1 0 0
+61 140923 512824
+
+fl=(28)
+fn=(139) TPerformant\API\Api::getInstance
+538 20 56
+cfl=(28)
+cfn=(138)
+calls=1 0 0
+540 171897 571936
+
+fl=(28)
+fn=(140) TPerformant\API\Api->getUrl
+520 0 40
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 152 0
+
+fl=(3)
+fn=(32)
+370 77 40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 152 0
+
+fl=(3)
+fn=(33)
+335 35 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 231 160
+
+fl=(42) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\RequestOptions.php
+fn=(141) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\RequestOptions.php
+1 3 0
+
+fl=(3)
+fn=(35)
+442 15321 12896
+cfl=(42)
+cfn=(141)
+calls=1 0 0
+444 3 0
+
+fl=(3)
+fn=(36)
+319 36 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 267 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 15325 12896
+
+fl=(2)
+fn=(5)
+130 23 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+130 15628 12896
+
+fl=(2)
+fn=(68)
+225 1 0
+
+fl=(30)
+fn=(142) GuzzleHttp\Client->prepareDefaults
+213 24 496
+cfl=(2)
+cfn=(68)
+calls=1 0 0
+225 1 0
+
+fl=(2)
+fn=(37)
+58 0 0
+
+fl=(2)
+fn=(125)
+69 3 312
+
+fl=(2)
+fn=(37)
+641 0 0
+
+fl=(2)
+fn=(143) php::preg_replace_callback
+648 73 0
+
+fl=(40)
+fn=(144) GuzzleHttp\Psr7\Uri->filterPath
+639 47 0
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+641 0 0
+cfl=(2)
+cfn=(143)
+calls=1 0 0
+648 73 0
+
+fl=(40)
+fn=(129)
+623 0 0
+
+fl=(40)
+fn=(130)
+540 40 -144
+cfl=(40)
+cfn=(144)
+calls=1 0 0
+553 121 0
+cfl=(40)
+cfn=(129)
+calls=1 0 0
+565 0 0
+
+fl=(40)
+fn=(131)
+65 59 -272
+cfl=(2)
+cfn=(125)
+calls=1 0 0
+69 3 312
+cfl=(40)
+cfn=(130)
+calls=1 0 0
+73 162 -144
+
+fl=(7)
+fn=(132)
+54 34 304
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+58 0 0
+cfl=(40)
+cfn=(131)
+calls=1 0 0
+59 225 -104
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 32
+
+fl=(2)
+fn=(31)
+384 148 0
+
+fl=(3)
+fn=(32)
+370 75 16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 32
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 148 0
+
+fl=(3)
+fn=(33)
+335 33 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 225 128
+
+fl=(43) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\psr7\src\UriResolver.php
+fn=(145) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\psr7\src\UriResolver.php
+1 0 0
+
+fl=(3)
+fn=(35)
+442 19047 31888
+cfl=(43)
+cfn=(145)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36)
+319 20 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 258 128
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 19047 31888
+
+fl=(2)
+fn=(5)
+147 4 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+147 19325 31888
+
+fl=(7)
+fn=(132)
+54 0 0
+
+fl=(40)
+fn=(146) GuzzleHttp\Psr7\Uri->getAuthority
+383 0 0
+
+fl=(40)
+fn=(147) GuzzleHttp\Psr7\Uri::composeComponents
+114 0 40
+
+fl=(40)
+fn=(148) GuzzleHttp\Psr7\Uri->__toString
+77 0 0
+cfl=(40)
+cfn=(146)
+calls=1 0 0
+81 0 0
+cfl=(40)
+cfn=(147)
+calls=1 0 0
+84 0 40
+
+fl=(40)
+fn=(149) GuzzleHttp\Psr7\Uri->getScheme
+378 0 0
+
+fl=(40)
+fn=(146)
+383 0 0
+
+fl=(40)
+fn=(146)
+383 0 0
+
+fl=(40)
+fn=(150) GuzzleHttp\Psr7\Uri->getPath
+412 0 0
+
+fl=(40)
+fn=(150)
+412 0 0
+
+fl=(40)
+fn=(150)
+412 0 0
+
+fl=(2)
+fn=(55)
+30 0 328
+
+fl=(2)
+fn=(151) php::implode
+39 0 48
+
+fl=(43)
+fn=(152) GuzzleHttp\Psr7\UriResolver::removeDotSegments
+23 0 -328
+cfl=(2)
+cfn=(55)
+calls=1 0 0
+30 0 328
+cfl=(2)
+cfn=(151)
+calls=1 0 0
+39 0 48
+
+fl=(40)
+fn=(153) GuzzleHttp\Psr7\Uri->getQuery
+417 0 0
+
+fl=(40)
+fn=(149)
+378 0 0
+
+fl=(40)
+fn=(154) GuzzleHttp\Psr7\Uri->getFragment
+422 0 0
+
+fl=(40)
+fn=(147)
+114 0 64
+
+fl=(2)
+fn=(125)
+69 0 376
+
+fl=(2)
+fn=(37)
+577 0 0
+
+fl=(2)
+fn=(126)
+581 0 0
+
+fl=(40)
+fn=(127)
+575 0 0
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+577 0 0
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+581 0 0
+
+fl=(2)
+fn=(37)
+593 0 0
+
+fl=(2)
+fn=(126)
+597 0 0
+
+fl=(40)
+fn=(128)
+591 0 0
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+593 0 0
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+597 0 0
+
+fl=(2)
+fn=(37)
+641 0 0
+
+fl=(2)
+fn=(143)
+648 0 0
+
+fl=(40)
+fn=(144)
+639 0 0
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+641 0 0
+cfl=(2)
+cfn=(143)
+calls=1 0 0
+648 0 0
+
+fl=(40)
+fn=(129)
+623 0 0
+
+fl=(40)
+fn=(130)
+540 0 -144
+cfl=(40)
+cfn=(127)
+calls=1 0 0
+543 0 0
+cfl=(40)
+cfn=(128)
+calls=1 0 0
+547 0 0
+cfl=(40)
+cfn=(144)
+calls=1 0 0
+553 0 0
+cfl=(40)
+cfn=(129)
+calls=1 0 0
+565 0 0
+
+fl=(40)
+fn=(131)
+65 0 -336
+cfl=(2)
+cfn=(125)
+calls=1 0 0
+69 0 376
+cfl=(40)
+cfn=(130)
+calls=1 0 0
+73 0 -144
+
+fl=(43)
+fn=(155) GuzzleHttp\Psr7\UriResolver::resolve
+62 0 216
+cfl=(40)
+cfn=(148)
+calls=1 0 0
+64 0 40
+cfl=(40)
+cfn=(149)
+calls=1 0 0
+69 0 0
+cfl=(40)
+cfn=(146)
+calls=1 0 0
+73 0 0
+cfl=(40)
+cfn=(146)
+calls=1 0 0
+78 0 0
+cfl=(40)
+cfn=(150)
+calls=1 0 0
+79 0 0
+cfl=(40)
+cfn=(150)
+calls=1 0 0
+83 0 0
+cfl=(40)
+cfn=(150)
+calls=1 0 0
+84 0 0
+cfl=(43)
+cfn=(152)
+calls=1 0 0
+97 0 48
+cfl=(40)
+cfn=(153)
+calls=1 0 0
+98 0 0
+cfl=(40)
+cfn=(149)
+calls=1 0 0
+103 0 0
+cfl=(40)
+cfn=(154)
+calls=1 0 0
+107 0 0
+cfl=(40)
+cfn=(147)
+calls=1 0 0
+107 0 64
+cfl=(40)
+cfn=(131)
+calls=1 0 0
+107 0 -104
+
+fl=(40)
+fn=(149)
+378 0 0
+
+fl=(30)
+fn=(156) GuzzleHttp\Client->buildUri
+141 23 -200
+cfl=(7)
+cfn=(132)
+calls=1 0 0
+144 260 200
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+147 19330 31888
+cfl=(7)
+cfn=(132)
+calls=1 0 0
+147 0 0
+cfl=(43)
+cfn=(155)
+calls=1 0 0
+147 0 264
+cfl=(40)
+cfn=(149)
+calls=1 0 0
+150 0 0
+
+fl=(2)
+fn=(157) php::is_array
+118 0 0
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 32
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 24
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 32
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 128
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 1 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 149 0
+
+fl=(3)
+fn=(32)
+370 96 8
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 1 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 149 0
+
+fl=(3)
+fn=(33)
+335 36 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 248 128
+
+fl=(44) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\psr7\src\MessageTrait.php
+fn=(158) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\psr7\src\MessageTrait.php
+1 0 0
+
+fl=(3)
+fn=(35)
+442 12135 17304
+cfl=(44)
+cfn=(158)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36)
+319 21 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 285 128
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 12135 17304
+
+fl=(2)
+fn=(5)
+14 5 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+14 12443 17304
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 24
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 1 40
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 172 0
+
+fl=(3)
+fn=(32)
+370 99 24
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 1 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 172 0
+
+fl=(3)
+fn=(33)
+335 38 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 273 160
+
+fl=(45) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\psr\http-message\src\MessageInterface.php
+fn=(159) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\psr\http-message\src\MessageInterface.php
+1 0 0
+
+fl=(3)
+fn=(35)
+442 14832 10312
+cfl=(45)
+cfn=(159)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36)
+319 22 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 312 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 14832 10312
+
+fl=(2)
+fn=(5)
+24 5 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+24 15166 10312
+
+fl=(46) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\psr\http-message\src\RequestInterface.php
+fn=(160) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\psr\http-message\src\RequestInterface.php
+1 7 680
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+24 15172 10312
+
+fl=(3)
+fn=(35)
+442 16114 6752
+cfl=(46)
+cfn=(160)
+calls=1 0 0
+444 15179 10992
+
+fl=(3)
+fn=(36)
+319 0 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 31294 17744
+
+fl=(2)
+fn=(5)
+12 0 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+12 31294 17744
+
+fl=(47) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\psr7\src\Request.php
+fn=(161) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\psr7\src\Request.php
+1 6 1080
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+14 12448 17304
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+12 31294 17744
+
+fl=(3)
+fn=(35)
+442 3195 12104
+cfl=(47)
+cfn=(161)
+calls=1 0 0
+444 43749 36128
+
+fl=(3)
+fn=(36)
+319 0 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 128
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 46944 48232
+
+fl=(2)
+fn=(5)
+121 0 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+121 46944 48232
+
+fl=(2)
+fn=(162) php::strtoupper
+43 0 0
+
+fl=(44)
+fn=(163) GuzzleHttp\Psr7\Request->setHeaders
+143 0 -96
+
+fl=(2)
+fn=(126)
+46 0 24
+
+fl=(44)
+fn=(164) GuzzleHttp\Psr7\Request->hasHeader
+44 0 -24
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+46 0 24
+
+fl=(40)
+fn=(165) GuzzleHttp\Psr7\Uri->getHost
+402 0 0
+
+fl=(40)
+fn=(166) GuzzleHttp\Psr7\Uri->getPort
+407 0 0
+
+fl=(47)
+fn=(167) GuzzleHttp\Psr7\Request->updateHostFromUri
+120 0 816
+cfl=(40)
+cfn=(165)
+calls=1 0 0
+122 0 0
+cfl=(40)
+cfn=(166)
+calls=1 0 0
+128 0 0
+
+fl=(47)
+fn=(168) GuzzleHttp\Psr7\Request->__construct
+32 0 -24
+cfl=(2)
+cfn=(162)
+calls=1 0 0
+43 0 0
+cfl=(44)
+cfn=(163)
+calls=1 0 0
+45 0 -96
+cfl=(44)
+cfn=(164)
+calls=1 0 0
+48 0 0
+cfl=(47)
+cfn=(167)
+calls=1 0 0
+49 0 816
+
+fl=(2)
+fn=(169) php::json_encode
+325 0 256
+
+fl=(2)
+fn=(170) php::json_last_error
+326 0 0
+
+fl=(9)
+fn=(171) GuzzleHttp\json_encode
+323 0 0
+cfl=(2)
+cfn=(169)
+calls=1 0 0
+325 0 256
+cfl=(2)
+cfn=(170)
+calls=1 0 0
+326 0 0
+
+fl=(2)
+fn=(126)
+818 0 32
+
+fl=(2)
+fn=(126)
+822 0 32
+
+fl=(2)
+fn=(172) php::in_array
+822 0 0
+
+fl=(2)
+fn=(126)
+822 0 32
+
+fl=(2)
+fn=(172)
+822 0 0
+
+fl=(7)
+fn=(173) GuzzleHttp\Psr7\_caseless_remove
+813 0 176
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+818 0 32
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+822 0 32
+cfl=(2)
+cfn=(172)
+calls=1 0 0
+822 0 0
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+822 0 32
+cfl=(2)
+cfn=(172)
+calls=1 0 0
+822 0 0
+
+fl=(2)
+fn=(157)
+339 0 0
+
+fl=(2)
+fn=(174) php::is_scalar
+80 0 0
+
+fl=(2)
+fn=(175) php::fopen
+81 0 384
+
+fl=(2)
+fn=(176) php::fwrite
+83 0 80
+
+fl=(2)
+fn=(177) php::fseek
+84 0 0
+
+fl=(2)
+fn=(28)
+373 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 32
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 24
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 32
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 128
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 24
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(48) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\psr\http-message\src\StreamInterface.php
+fn=(178) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\psr\http-message\src\StreamInterface.php
+1 0 0
+
+fl=(3)
+fn=(35)
+442 0 8064
+cfl=(48)
+cfn=(178)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36)
+319 0 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 0 8064
+
+fl=(2)
+fn=(5)
+11 0 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+11 0 8064
+
+fl=(49) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\psr7\src\Stream.php
+fn=(179) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\psr7\src\Stream.php
+1 0 8
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+11 0 8064
+
+fl=(3)
+fn=(35)
+442 0 27384
+cfl=(49)
+cfn=(179)
+calls=1 0 0
+444 0 8072
+
+fl=(3)
+fn=(36)
+319 0 -128
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 128
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 0 35456
+
+fl=(2)
+fn=(5)
+86 0 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+86 0 35456
+
+fl=(2)
+fn=(91)
+53 0 0
+
+fl=(2)
+fn=(180) php::stream_get_meta_data
+66 0 552
+
+fl=(2)
+fn=(180)
+253 0 552
+
+fl=(49)
+fn=(181) GuzzleHttp\Psr7\Stream->getMetadata
+243 0 -520
+cfl=(2)
+cfn=(180)
+calls=1 0 0
+253 0 552
+
+fl=(49)
+fn=(182) GuzzleHttp\Psr7\Stream->__construct
+51 0 -552
+cfl=(2)
+cfn=(91)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(180)
+calls=1 0 0
+66 0 552
+cfl=(49)
+cfn=(181)
+calls=1 0 0
+70 0 32
+
+fl=(7)
+fn=(183) GuzzleHttp\Psr7\stream_for
+78 0 160
+cfl=(2)
+cfn=(174)
+calls=1 0 0
+80 0 0
+cfl=(2)
+cfn=(175)
+calls=1 0 0
+81 0 384
+cfl=(2)
+cfn=(176)
+calls=1 0 0
+83 0 80
+cfl=(2)
+cfn=(177)
+calls=1 0 0
+84 0 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+86 0 35456
+cfl=(49)
+cfn=(182)
+calls=1 0 0
+86 0 32
+
+fl=(44)
+fn=(184) GuzzleHttp\Psr7\Request->getHeaders
+39 0 0
+
+fl=(47)
+fn=(185) GuzzleHttp\Psr7\Request->getUri
+99 0 0
+
+fl=(47)
+fn=(186) GuzzleHttp\Psr7\Request->getMethod
+87 0 0
+
+fl=(44)
+fn=(187) GuzzleHttp\Psr7\Request->getProtocolVersion
+23 0 0
+
+fl=(2)
+fn=(162)
+43 0 0
+
+fl=(2)
+fn=(157)
+147 0 0
+
+fl=(2)
+fn=(56)
+180 0 0
+
+fl=(44)
+fn=(188) GuzzleHttp\Psr7\Request->GuzzleHttp\Psr7\{closure}
+179 0 0
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+180 0 0
+
+fl=(2)
+fn=(57)
+181 0 272
+cfl=(44)
+cfn=(188)
+calls=1 0 0
+181 0 0
+
+fl=(44)
+fn=(189) GuzzleHttp\Psr7\Request->trimHeaderValues
+177 0 0
+cfl=(2)
+cfn=(57)
+calls=1 0 0
+181 0 272
+
+fl=(2)
+fn=(126)
+152 0 24
+
+fl=(44)
+fn=(163)
+143 0 448
+cfl=(2)
+cfn=(157)
+calls=1 0 0
+147 0 0
+cfl=(44)
+cfn=(189)
+calls=1 0 0
+151 0 272
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+152 0 24
+
+fl=(2)
+fn=(126)
+46 0 24
+
+fl=(44)
+fn=(164)
+44 0 -24
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+46 0 24
+
+fl=(2)
+fn=(174)
+80 0 0
+
+fl=(2)
+fn=(190) php::gettype
+89 0 0
+
+fl=(7)
+fn=(183)
+78 0 0
+cfl=(2)
+cfn=(174)
+calls=1 0 0
+80 0 0
+cfl=(2)
+cfn=(190)
+calls=1 0 0
+89 0 0
+
+fl=(47)
+fn=(168)
+32 0 -24
+cfl=(2)
+cfn=(162)
+calls=1 0 0
+43 0 0
+cfl=(44)
+cfn=(163)
+calls=1 0 0
+45 0 744
+cfl=(44)
+cfn=(164)
+calls=1 0 0
+48 0 0
+cfl=(7)
+cfn=(183)
+calls=1 0 0
+53 0 0
+
+fl=(7)
+fn=(191) GuzzleHttp\Psr7\modify_request
+201 0 280
+cfl=(44)
+cfn=(184)
+calls=1 0 0
+207 0 0
+cfl=(47)
+cfn=(185)
+calls=1 0 0
+210 0 0
+cfl=(47)
+cfn=(186)
+calls=1 0 0
+254 0 0
+cfl=(44)
+cfn=(187)
+calls=1 0 0
+260 0 0
+cfl=(47)
+cfn=(168)
+calls=1 0 0
+260 0 720
+
+fl=(44)
+fn=(192) GuzzleHttp\Psr7\Request->getBody
+123 0 0
+
+fl=(2)
+fn=(126)
+46 0 32
+
+fl=(44)
+fn=(164)
+44 0 -32
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+46 0 32
+
+fl=(2)
+fn=(126)
+46 0 32
+
+fl=(44)
+fn=(164)
+44 0 -32
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+46 0 32
+
+fl=(44)
+fn=(184)
+39 0 0
+
+fl=(47)
+fn=(185)
+99 0 0
+
+fl=(2)
+fn=(135)
+232 0 272
+
+fl=(2)
+fn=(126)
+818 0 32
+
+fl=(2)
+fn=(126)
+818 0 32
+
+fl=(2)
+fn=(126)
+822 0 24
+
+fl=(2)
+fn=(172)
+822 0 0
+
+fl=(7)
+fn=(173)
+813 0 -88
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+818 0 32
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+818 0 32
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+822 0 24
+cfl=(2)
+cfn=(172)
+calls=1 0 0
+822 0 0
+
+fl=(47)
+fn=(186)
+87 0 0
+
+fl=(44)
+fn=(192)
+123 1 0
+
+fl=(44)
+fn=(187)
+23 0 0
+
+fl=(2)
+fn=(162)
+43 0 0
+
+fl=(2)
+fn=(157)
+147 0 0
+
+fl=(2)
+fn=(56)
+180 0 0
+
+fl=(44)
+fn=(188)
+179 13 0
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+180 0 0
+
+fl=(2)
+fn=(57)
+181 17 272
+cfl=(44)
+cfn=(188)
+calls=1 0 0
+181 13 0
+
+fl=(44)
+fn=(189)
+177 15 0
+cfl=(2)
+cfn=(57)
+calls=1 0 0
+181 30 272
+
+fl=(2)
+fn=(126)
+152 0 32
+
+fl=(2)
+fn=(157)
+147 0 0
+
+fl=(2)
+fn=(56)
+180 0 0
+
+fl=(44)
+fn=(188)
+179 11 0
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+180 0 0
+
+fl=(2)
+fn=(57)
+181 16 272
+cfl=(44)
+cfn=(188)
+calls=1 0 0
+181 12 0
+
+fl=(44)
+fn=(189)
+177 15 0
+cfl=(2)
+cfn=(57)
+calls=1 0 0
+181 29 272
+
+fl=(2)
+fn=(126)
+152 0 32
+
+fl=(2)
+fn=(157)
+147 0 0
+
+fl=(2)
+fn=(56)
+180 0 0
+
+fl=(44)
+fn=(188)
+179 11 0
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+180 0 0
+
+fl=(2)
+fn=(57)
+181 15 272
+cfl=(44)
+cfn=(188)
+calls=1 0 0
+181 11 0
+
+fl=(44)
+fn=(189)
+177 17 0
+cfl=(2)
+cfn=(57)
+calls=1 0 0
+181 27 272
+
+fl=(2)
+fn=(126)
+152 0 24
+
+fl=(44)
+fn=(163)
+143 133 448
+cfl=(2)
+cfn=(157)
+calls=1 0 0
+147 0 0
+cfl=(44)
+cfn=(189)
+calls=1 0 0
+151 46 272
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+152 0 32
+cfl=(2)
+cfn=(157)
+calls=1 0 0
+147 0 0
+cfl=(44)
+cfn=(189)
+calls=1 0 0
+151 45 272
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+152 0 32
+cfl=(2)
+cfn=(157)
+calls=1 0 0
+147 0 0
+cfl=(44)
+cfn=(189)
+calls=1 0 0
+151 45 272
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+152 0 24
+
+fl=(2)
+fn=(126)
+46 0 24
+
+fl=(44)
+fn=(164)
+44 12 -24
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+46 0 24
+
+fl=(2)
+fn=(174)
+80 0 0
+
+fl=(2)
+fn=(190)
+89 0 0
+
+fl=(7)
+fn=(183)
+78 25 0
+cfl=(2)
+cfn=(174)
+calls=1 0 0
+80 0 0
+cfl=(2)
+cfn=(190)
+calls=1 0 0
+89 0 0
+
+fl=(47)
+fn=(168)
+32 93 -24
+cfl=(2)
+cfn=(162)
+calls=1 0 0
+43 0 0
+cfl=(44)
+cfn=(163)
+calls=1 0 0
+45 273 1352
+cfl=(44)
+cfn=(164)
+calls=1 0 0
+48 12 0
+cfl=(7)
+cfn=(183)
+calls=1 0 0
+53 25 0
+
+fl=(7)
+fn=(191)
+201 84 8
+cfl=(44)
+cfn=(184)
+calls=1 0 0
+207 0 0
+cfl=(47)
+cfn=(185)
+calls=1 0 0
+210 0 0
+cfl=(2)
+cfn=(135)
+calls=1 0 0
+232 0 272
+cfl=(7)
+cfn=(173)
+calls=1 0 0
+232 0 0
+cfl=(47)
+cfn=(186)
+calls=1 0 0
+254 0 0
+cfl=(44)
+cfn=(192)
+calls=1 0 0
+257 1 0
+cfl=(44)
+cfn=(187)
+calls=1 0 0
+260 0 0
+cfl=(47)
+cfn=(168)
+calls=1 0 0
+260 406 1328
+
+fl=(30)
+fn=(193) GuzzleHttp\Client->applyOptions
+291 37 -1032
+cfl=(9)
+cfn=(171)
+calls=1 0 0
+323 0 256
+cfl=(7)
+cfn=(173)
+calls=1 0 0
+326 0 272
+cfl=(2)
+cfn=(157)
+calls=1 0 0
+339 0 0
+cfl=(7)
+cfn=(183)
+calls=1 0 0
+342 0 36112
+cfl=(7)
+cfn=(191)
+calls=1 0 0
+388 0 1000
+cfl=(44)
+cfn=(192)
+calls=1 0 0
+389 0 0
+cfl=(44)
+cfn=(164)
+calls=1 0 0
+402 0 0
+cfl=(44)
+cfn=(164)
+calls=1 0 0
+402 0 0
+cfl=(7)
+cfn=(191)
+calls=1 0 0
+406 492 1608
+
+fl=(2)
+fn=(194) php::array_reverse
+198 0 272
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 145 0
+
+fl=(3)
+fn=(32)
+370 93 24
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 145 0
+
+fl=(3)
+fn=(33)
+335 51 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 241 160
+
+fl=(50) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php
+fn=(195) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php
+1 0 0
+
+fl=(3)
+fn=(35)
+442 14667 10032
+cfl=(50)
+cfn=(195)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36)
+319 25 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 293 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 14667 10032
+
+fl=(2)
+fn=(5)
+218 4 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+218 14986 10032
+
+fl=(50)
+fn=(196) GuzzleHttp\PrepareBodyMiddleware->__construct
+20 0 0
+
+fl=(38)
+fn=(197) GuzzleHttp\Middleware::GuzzleHttp\{closure}
+217 3 40
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+218 14990 10032
+cfl=(50)
+cfn=(196)
+calls=1 0 0
+218 0 0
+
+fl=(38)
+fn=(197)
+27 0 496
+
+fl=(41)
+fn=(198) GuzzleHttp\RedirectMiddleware->__construct
+38 0 0
+
+fl=(38)
+fn=(197)
+149 0 40
+cfl=(41)
+cfn=(198)
+calls=1 0 0
+150 0 0
+
+fl=(38)
+fn=(197)
+55 0 496
+
+fl=(31)
+fn=(199) GuzzleHttp\HandlerStack->resolve
+191 19 -272
+cfl=(2)
+cfn=(194)
+calls=1 0 0
+198 0 272
+cfl=(38)
+cfn=(197)
+calls=1 0 0
+199 14993 10072
+cfl=(38)
+cfn=(197)
+calls=1 0 0
+199 0 496
+cfl=(38)
+cfn=(197)
+calls=1 0 0
+199 0 40
+cfl=(38)
+cfn=(197)
+calls=1 0 0
+199 0 496
+
+fl=(2)
+fn=(157)
+59 0 0
+
+fl=(44)
+fn=(192)
+123 0 0
+
+fl=(2)
+fn=(200) php::clearstatcache
+147 0 -64
+
+fl=(2)
+fn=(201) php::fstat
+150 0 1256
+
+fl=(49)
+fn=(202) GuzzleHttp\Psr7\Stream->getSize
+135 0 -1256
+cfl=(2)
+cfn=(200)
+calls=1 0 0
+147 0 -64
+cfl=(2)
+cfn=(201)
+calls=1 0 0
+150 0 1256
+
+fl=(2)
+fn=(126)
+46 0 32
+
+fl=(44)
+fn=(164)
+44 0 -32
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+46 0 32
+
+fl=(2)
+fn=(126)
+46 0 32
+
+fl=(44)
+fn=(164)
+44 0 -32
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+46 0 32
+
+fl=(2)
+fn=(126)
+46 0 40
+
+fl=(44)
+fn=(164)
+44 0 -40
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+46 0 40
+
+fl=(44)
+fn=(192)
+123 0 0
+
+fl=(49)
+fn=(202)
+135 0 0
+
+fl=(2)
+fn=(126)
+46 0 24
+
+fl=(44)
+fn=(164)
+44 0 -24
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+46 0 24
+
+fl=(44)
+fn=(187)
+23 0 0
+
+fl=(44)
+fn=(192)
+123 0 0
+
+fl=(49)
+fn=(202)
+135 0 0
+
+fl=(49)
+fn=(203) GuzzleHttp\Psr7\Stream->isSeekable
+169 0 0
+
+fl=(50)
+fn=(204) GuzzleHttp\PrepareBodyMiddleware->addExpectHeader
+69 0 0
+cfl=(44)
+cfn=(164)
+calls=1 0 0
+75 0 0
+cfl=(44)
+cfn=(187)
+calls=1 0 0
+82 0 0
+cfl=(44)
+cfn=(192)
+calls=1 0 0
+99 0 0
+cfl=(49)
+cfn=(202)
+calls=1 0 0
+100 0 0
+cfl=(49)
+cfn=(203)
+calls=1 0 0
+102 0 0
+
+fl=(44)
+fn=(184)
+39 0 0
+
+fl=(47)
+fn=(185)
+99 0 0
+
+fl=(2)
+fn=(135)
+232 0 272
+
+fl=(2)
+fn=(126)
+818 0 32
+
+fl=(2)
+fn=(126)
+822 0 32
+
+fl=(2)
+fn=(172)
+822 0 0
+
+fl=(2)
+fn=(126)
+822 0 32
+
+fl=(2)
+fn=(172)
+822 0 0
+
+fl=(2)
+fn=(126)
+822 0 24
+
+fl=(2)
+fn=(172)
+822 0 0
+
+fl=(7)
+fn=(173)
+813 0 -120
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+818 0 32
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+822 0 32
+cfl=(2)
+cfn=(172)
+calls=1 0 0
+822 0 0
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+822 0 32
+cfl=(2)
+cfn=(172)
+calls=1 0 0
+822 0 0
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+822 0 24
+cfl=(2)
+cfn=(172)
+calls=1 0 0
+822 0 0
+
+fl=(47)
+fn=(186)
+87 0 0
+
+fl=(44)
+fn=(192)
+123 0 0
+
+fl=(44)
+fn=(187)
+23 0 0
+
+fl=(2)
+fn=(162)
+43 0 0
+
+fl=(2)
+fn=(157)
+147 0 0
+
+fl=(2)
+fn=(56)
+180 0 24
+
+fl=(44)
+fn=(188)
+179 0 0
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+180 0 24
+
+fl=(2)
+fn=(57)
+181 0 272
+cfl=(44)
+cfn=(188)
+calls=1 0 0
+181 0 24
+
+fl=(44)
+fn=(189)
+177 0 0
+cfl=(2)
+cfn=(57)
+calls=1 0 0
+181 0 296
+
+fl=(2)
+fn=(126)
+152 0 32
+
+fl=(2)
+fn=(157)
+147 0 0
+
+fl=(2)
+fn=(56)
+180 0 0
+
+fl=(44)
+fn=(188)
+179 0 0
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+180 0 0
+
+fl=(2)
+fn=(57)
+181 0 272
+cfl=(44)
+cfn=(188)
+calls=1 0 0
+181 0 0
+
+fl=(44)
+fn=(189)
+177 0 0
+cfl=(2)
+cfn=(57)
+calls=1 0 0
+181 0 272
+
+fl=(2)
+fn=(126)
+152 0 32
+
+fl=(2)
+fn=(157)
+147 0 0
+
+fl=(2)
+fn=(56)
+180 0 0
+
+fl=(44)
+fn=(188)
+179 0 0
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+180 0 0
+
+fl=(2)
+fn=(57)
+181 0 272
+cfl=(44)
+cfn=(188)
+calls=1 0 0
+181 0 0
+
+fl=(44)
+fn=(189)
+177 0 0
+cfl=(2)
+cfn=(57)
+calls=1 0 0
+181 0 272
+
+fl=(2)
+fn=(126)
+152 0 32
+
+fl=(2)
+fn=(157)
+147 0 0
+
+fl=(2)
+fn=(56)
+180 0 0
+
+fl=(44)
+fn=(188)
+179 0 0
+cfl=(2)
+cfn=(56)
+calls=1 0 0
+180 0 0
+
+fl=(2)
+fn=(57)
+181 0 272
+cfl=(44)
+cfn=(188)
+calls=1 0 0
+181 0 0
+
+fl=(44)
+fn=(189)
+177 0 0
+cfl=(2)
+cfn=(57)
+calls=1 0 0
+181 0 272
+
+fl=(2)
+fn=(126)
+152 0 24
+
+fl=(44)
+fn=(163)
+143 0 448
+cfl=(2)
+cfn=(157)
+calls=1 0 0
+147 0 0
+cfl=(44)
+cfn=(189)
+calls=1 0 0
+151 0 296
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+152 0 32
+cfl=(2)
+cfn=(157)
+calls=1 0 0
+147 0 0
+cfl=(44)
+cfn=(189)
+calls=1 0 0
+151 0 272
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+152 0 32
+cfl=(2)
+cfn=(157)
+calls=1 0 0
+147 0 0
+cfl=(44)
+cfn=(189)
+calls=1 0 0
+151 0 272
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+152 0 32
+cfl=(2)
+cfn=(157)
+calls=1 0 0
+147 0 0
+cfl=(44)
+cfn=(189)
+calls=1 0 0
+151 0 272
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+152 0 24
+
+fl=(2)
+fn=(126)
+46 0 24
+
+fl=(44)
+fn=(164)
+44 12 -24
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+46 0 24
+
+fl=(2)
+fn=(174)
+80 0 0
+
+fl=(2)
+fn=(190)
+89 0 0
+
+fl=(7)
+fn=(183)
+78 28 0
+cfl=(2)
+cfn=(174)
+calls=1 0 0
+80 0 0
+cfl=(2)
+cfn=(190)
+calls=1 0 0
+89 0 0
+
+fl=(47)
+fn=(168)
+32 79 -24
+cfl=(2)
+cfn=(162)
+calls=1 0 0
+43 0 0
+cfl=(44)
+cfn=(163)
+calls=1 0 0
+45 0 1680
+cfl=(44)
+cfn=(164)
+calls=1 0 0
+48 13 0
+cfl=(7)
+cfn=(183)
+calls=1 0 0
+53 28 0
+
+fl=(7)
+fn=(191)
+201 25 8
+cfl=(44)
+cfn=(184)
+calls=1 0 0
+207 0 0
+cfl=(47)
+cfn=(185)
+calls=1 0 0
+210 0 0
+cfl=(2)
+cfn=(135)
+calls=1 0 0
+232 0 272
+cfl=(7)
+cfn=(173)
+calls=1 0 0
+232 0 0
+cfl=(47)
+cfn=(186)
+calls=1 0 0
+254 0 0
+cfl=(44)
+cfn=(192)
+calls=1 0 0
+257 0 0
+cfl=(44)
+cfn=(187)
+calls=1 0 0
+260 0 0
+cfl=(47)
+cfn=(168)
+calls=1 0 0
+260 121 1656
+
+fl=(2)
+fn=(28)
+373 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 149 0
+
+fl=(3)
+fn=(32)
+370 101 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 149 0
+
+fl=(3)
+fn=(33)
+335 79 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 252 160
+
+fl=(51) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Handler\EasyHandle.php
+fn=(205) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Handler\EasyHandle.php
+1 0 0
+
+fl=(3)
+fn=(35)
+442 15058 7784
+cfl=(51)
+cfn=(205)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36)
+319 22 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 331 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 15058 7784
+
+fl=(2)
+fn=(5)
+38 4 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+38 15413 7784
+
+fl=(2)
+fn=(6)
+38 0 0
+
+fl=(44)
+fn=(184)
+39 0 0
+
+fl=(47)
+fn=(186)
+87 0 0
+
+fl=(47)
+fn=(185)
+99 0 0
+
+fl=(2)
+fn=(37)
+663 0 0
+
+fl=(2)
+fn=(143)
+670 0 0
+
+fl=(40)
+fn=(206) GuzzleHttp\Psr7\Uri->filterQueryAndFragment
+661 0 0
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+663 0 0
+cfl=(2)
+cfn=(143)
+calls=1 0 0
+670 0 0
+
+fl=(40)
+fn=(207) GuzzleHttp\Psr7\Uri->withFragment
+521 0 0
+cfl=(40)
+cfn=(206)
+calls=1 0 0
+523 0 0
+
+fl=(40)
+fn=(146)
+383 0 0
+
+fl=(40)
+fn=(147)
+114 0 64
+
+fl=(40)
+fn=(148)
+77 0 0
+cfl=(40)
+cfn=(146)
+calls=1 0 0
+81 0 0
+cfl=(40)
+cfn=(147)
+calls=1 0 0
+84 0 64
+
+fl=(2)
+fn=(208) php::defined
+202 0 0
+
+fl=(44)
+fn=(187)
+23 0 0
+
+fl=(35)
+fn=(209) GuzzleHttp\Handler\CurlFactory->getDefaultConf
+191 0 272
+cfl=(44)
+cfn=(184)
+calls=1 0 0
+194 0 0
+cfl=(47)
+cfn=(186)
+calls=1 0 0
+195 0 0
+cfl=(47)
+cfn=(185)
+calls=1 0 0
+196 0 0
+cfl=(40)
+cfn=(207)
+calls=1 0 0
+196 0 0
+cfl=(40)
+cfn=(148)
+calls=1 0 0
+196 0 64
+cfl=(2)
+cfn=(208)
+calls=1 0 0
+202 0 0
+cfl=(44)
+cfn=(187)
+calls=1 0 0
+206 0 0
+
+fl=(44)
+fn=(192)
+123 0 0
+
+fl=(49)
+fn=(202)
+135 0 0
+
+fl=(2)
+fn=(126)
+46 0 32
+
+fl=(44)
+fn=(164)
+44 0 -32
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+46 0 32
+
+fl=(2)
+fn=(126)
+51 0 32
+
+fl=(44)
+fn=(210) GuzzleHttp\Psr7\Request->getHeader
+49 0 -32
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+51 0 32
+
+fl=(2)
+fn=(151)
+64 0 0
+
+fl=(44)
+fn=(211) GuzzleHttp\Psr7\Request->getHeaderLine
+62 0 0
+cfl=(44)
+cfn=(210)
+calls=1 0 0
+64 0 0
+cfl=(2)
+cfn=(151)
+calls=1 0 0
+64 0 0
+
+fl=(44)
+fn=(192)
+123 0 0
+
+fl=(2)
+fn=(177)
+199 0 0
+
+fl=(49)
+fn=(212) GuzzleHttp\Psr7\Stream->seek
+195 0 0
+cfl=(2)
+cfn=(177)
+calls=1 0 0
+199 0 0
+
+fl=(2)
+fn=(213) php::stream_get_contents
+94 0 96
+
+fl=(49)
+fn=(214) GuzzleHttp\Psr7\Stream->__toString
+90 0 0
+cfl=(49)
+cfn=(212)
+calls=1 0 0
+93 0 0
+cfl=(2)
+cfn=(213)
+calls=1 0 0
+94 0 96
+
+fl=(2)
+fn=(135)
+315 0 272
+
+fl=(2)
+fn=(215) php::strcasecmp
+316 0 0
+
+fl=(35)
+fn=(216) GuzzleHttp\Handler\CurlFactory->removeHeader
+313 0 0
+cfl=(2)
+cfn=(135)
+calls=1 0 0
+315 0 272
+cfl=(2)
+cfn=(215)
+calls=1 0 0
+316 0 0
+
+fl=(2)
+fn=(135)
+315 0 272
+
+fl=(2)
+fn=(215)
+316 0 0
+
+fl=(2)
+fn=(215)
+316 0 0
+
+fl=(2)
+fn=(215)
+316 0 0
+
+fl=(35)
+fn=(216)
+313 0 -272
+cfl=(2)
+cfn=(135)
+calls=1 0 0
+315 0 272
+cfl=(2)
+cfn=(215)
+calls=1 0 0
+316 0 0
+cfl=(2)
+cfn=(215)
+calls=1 0 0
+316 0 0
+cfl=(2)
+cfn=(215)
+calls=1 0 0
+316 0 0
+
+fl=(2)
+fn=(126)
+46 0 24
+
+fl=(44)
+fn=(164)
+44 0 -24
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+46 0 24
+
+fl=(2)
+fn=(126)
+46 0 32
+
+fl=(44)
+fn=(164)
+44 0 -32
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+46 0 32
+
+fl=(35)
+fn=(217) GuzzleHttp\Handler\CurlFactory->applyBody
+245 0 496
+cfl=(44)
+cfn=(164)
+calls=1 0 0
+247 0 0
+cfl=(44)
+cfn=(211)
+calls=1 0 0
+248 0 0
+cfl=(44)
+cfn=(192)
+calls=1 0 0
+256 0 0
+cfl=(49)
+cfn=(214)
+calls=1 0 0
+256 0 96
+cfl=(35)
+cfn=(216)
+calls=1 0 0
+258 0 272
+cfl=(35)
+cfn=(216)
+calls=1 0 0
+259 0 0
+cfl=(44)
+cfn=(164)
+calls=1 0 0
+276 0 0
+cfl=(44)
+cfn=(164)
+calls=1 0 0
+281 0 0
+
+fl=(35)
+fn=(218) GuzzleHttp\Handler\CurlFactory->applyMethod
+218 0 0
+cfl=(44)
+cfn=(192)
+calls=1 0 0
+220 0 0
+cfl=(49)
+cfn=(202)
+calls=1 0 0
+221 0 0
+cfl=(35)
+cfn=(217)
+calls=1 0 0
+224 0 864
+
+fl=(2)
+fn=(37)
+334 0 0
+
+fl=(2)
+fn=(126)
+51 0 32
+
+fl=(44)
+fn=(210)
+49 0 -32
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+51 0 32
+
+fl=(2)
+fn=(151)
+64 0 0
+
+fl=(44)
+fn=(211)
+62 0 0
+cfl=(44)
+cfn=(210)
+calls=1 0 0
+64 0 0
+cfl=(2)
+cfn=(151)
+calls=1 0 0
+64 0 0
+
+fl=(2)
+fn=(175)
+384 0 384
+
+fl=(2)
+fn=(174)
+80 0 0
+
+fl=(2)
+fn=(190)
+89 0 0
+
+fl=(2)
+fn=(91)
+53 0 0
+
+fl=(2)
+fn=(180)
+66 0 552
+
+fl=(2)
+fn=(180)
+253 0 552
+
+fl=(49)
+fn=(181)
+243 0 -520
+cfl=(2)
+cfn=(180)
+calls=1 0 0
+253 0 552
+
+fl=(49)
+fn=(182)
+51 0 -552
+cfl=(2)
+cfn=(91)
+calls=1 0 0
+53 0 0
+cfl=(2)
+cfn=(180)
+calls=1 0 0
+66 0 552
+cfl=(49)
+cfn=(181)
+calls=1 0 0
+70 0 32
+
+fl=(7)
+fn=(183)
+78 0 160
+cfl=(2)
+cfn=(174)
+calls=1 0 0
+80 0 0
+cfl=(2)
+cfn=(190)
+calls=1 0 0
+89 0 0
+cfl=(49)
+cfn=(182)
+calls=1 0 0
+91 0 32
+
+fl=(35)
+fn=(219) GuzzleHttp\Handler\CurlFactory->applyHandlerOptions
+323 0 0
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+334 0 0
+cfl=(44)
+cfn=(211)
+calls=1 0 0
+354 0 0
+cfl=(2)
+cfn=(175)
+calls=1 0 0
+384 0 384
+cfl=(7)
+cfn=(183)
+calls=1 0 0
+385 0 192
+
+fl=(2)
+fn=(126)
+46 0 24
+
+fl=(44)
+fn=(164)
+44 0 -24
+cfl=(2)
+cfn=(126)
+calls=1 0 0
+46 0 24
+
+fl=(35)
+fn=(220) GuzzleHttp\Handler\CurlFactory->applyHeaders
+286 0 160
+cfl=(44)
+cfn=(164)
+calls=1 0 0
+302 0 0
+
+fl=(35)
+fn=(221) GuzzleHttp\Handler\CurlFactory->createHeaderFn
+525 0 520
+
+fl=(2)
+fn=(222) php::curl_init
+55 0 952
+
+fl=(2)
+fn=(223) php::curl_setopt_array
+56 0 416
+
+fl=(35)
+fn=(224) GuzzleHttp\Handler\CurlFactory->create
+31 3 -1120
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+38 15417 7784
+cfl=(2)
+cfn=(6)
+calls=1 0 0
+38 0 0
+cfl=(35)
+cfn=(209)
+calls=1 0 0
+41 0 336
+cfl=(35)
+cfn=(218)
+calls=1 0 0
+42 0 864
+cfl=(35)
+cfn=(219)
+calls=1 0 0
+43 0 576
+cfl=(35)
+cfn=(220)
+calls=1 0 0
+44 0 160
+cfl=(35)
+cfn=(221)
+calls=1 0 0
+52 0 520
+cfl=(2)
+cfn=(222)
+calls=1 0 0
+55 0 952
+cfl=(2)
+cfn=(223)
+calls=1 0 0
+56 0 416
+
+fl=(2)
+fn=(225) php::curl_exec
+40 4897343 0
+
+fl=(2)
+fn=(226) php::curl_errno
+41 0 0
+
+fl=(2)
+fn=(227) php::curl_error
+138 0 80
+
+fl=(2)
+fn=(228) php::curl_getinfo
+139 0 1992
+
+fl=(2)
+fn=(229) php::count
+66 0 0
+
+fl=(2)
+fn=(230) php::curl_setopt
+73 0 -520
+
+fl=(2)
+fn=(230)
+74 0 0
+
+fl=(2)
+fn=(230)
+75 0 0
+
+fl=(2)
+fn=(230)
+76 0 40
+
+fl=(2)
+fn=(231) php::curl_reset
+77 0 -40
+
+fl=(35)
+fn=(232) GuzzleHttp\Handler\CurlFactory->release
+61 0 224
+cfl=(2)
+cfn=(229)
+calls=1 0 0
+66 0 0
+cfl=(2)
+cfn=(230)
+calls=1 0 0
+73 0 -520
+cfl=(2)
+cfn=(230)
+calls=1 0 0
+74 0 0
+cfl=(2)
+cfn=(230)
+calls=1 0 0
+75 0 0
+cfl=(2)
+cfn=(230)
+calls=1 0 0
+76 0 40
+cfl=(2)
+cfn=(231)
+calls=1 0 0
+77 0 -40
+
+fl=(2)
+fn=(62)
+180 0 320
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 -16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 177 0
+
+fl=(3)
+fn=(32)
+370 115 -16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 177 0
+
+fl=(3)
+fn=(33)
+335 41 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 295 160
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 -16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 -16
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(52) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Exception\GuzzleException.php
+fn=(233) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Exception\GuzzleException.php
+1 4 0
+
+fl=(3)
+fn=(35)
+442 3093 608
+cfl=(52)
+cfn=(233)
+calls=1 0 0
+444 4 0
+
+fl=(3)
+fn=(36)
+319 17 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 3098 608
+
+fl=(2)
+fn=(5)
+4 20 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+4 3115 608
+
+fl=(53) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Exception\TransferException.php
+fn=(234) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Exception\TransferException.php
+1 18 840
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+4 3135 608
+
+fl=(3)
+fn=(35)
+442 6538 464
+cfl=(53)
+cfn=(234)
+calls=1 0 0
+444 3154 1448
+
+fl=(3)
+fn=(36)
+319 13 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 9692 1912
+
+fl=(2)
+fn=(5)
+12 19 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+12 9706 1912
+
+fl=(54) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php
+fn=(235) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php
+1 29 792
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+12 9725 1912
+
+fl=(3)
+fn=(35)
+442 25059 17536
+cfl=(54)
+cfn=(235)
+calls=1 0 0
+444 9754 2704
+
+fl=(3)
+fn=(36)
+319 35 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 337 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 34814 20240
+
+fl=(2)
+fn=(5)
+11 23 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+11 35186 20240
+
+fl=(55) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Exception\ConnectException.php
+fn=(236) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\guzzle\src\Exception\ConnectException.php
+1 20 1288
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+11 35210 20240
+
+fl=(3)
+fn=(35)
+442 5872 2256
+cfl=(55)
+cfn=(236)
+calls=1 0 0
+444 35231 21528
+
+fl=(3)
+fn=(36)
+319 12 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 41103 23784
+
+fl=(2)
+fn=(5)
+185 18 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+185 41115 23784
+
+fl=(2)
+fn=(237) php::GuzzleHttp\Exception\ConnectException->__construct
+34 0 -24
+
+fl=(54)
+fn=(238) GuzzleHttp\Exception\ConnectException->__construct
+23 35 0
+cfl=(2)
+cfn=(237)
+calls=1 0 0
+34 0 -24
+
+fl=(55)
+fn=(238)
+13 52 0
+cfl=(54)
+cfn=(238)
+calls=1 0 0
+19 36 -24
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 616 0
+
+fl=(3)
+fn=(32)
+370 82 24
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 616 0
+
+fl=(3)
+fn=(33)
+335 36 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 701 160
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 40
+
+fl=(2)
+fn=(30)
+382 0 40
+
+fl=(2)
+fn=(31)
+384 200 0
+
+fl=(3)
+fn=(32)
+370 92 24
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 40
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 40
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 200 0
+
+fl=(3)
+fn=(33)
+335 36 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 294 160
+
+fl=(56) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\promises\src\PromiseInterface.php
+fn=(239) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\promises\src\PromiseInterface.php
+1 2 0
+
+fl=(3)
+fn=(35)
+442 1242 5072
+cfl=(56)
+cfn=(239)
+calls=1 0 0
+444 2 0
+
+fl=(3)
+fn=(36)
+319 38 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 330 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 1244 5072
+
+fl=(2)
+fn=(5)
+10 22 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+10 1614 5072
+
+fl=(57) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\promises\src\RejectedPromise.php
+fn=(240) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\promises\src\RejectedPromise.php
+1 21 232
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+10 1636 5072
+
+fl=(3)
+fn=(35)
+442 14290 8800
+cfl=(57)
+cfn=(240)
+calls=1 0 0
+444 1658 5304
+
+fl=(3)
+fn=(36)
+319 39 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 737 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 15949 14104
+
+fl=(2)
+fn=(5)
+98 20 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+98 16726 14104
+
+fl=(2)
+fn=(241) php::method_exists
+16 1 0
+
+fl=(57)
+fn=(242) GuzzleHttp\Promise\RejectedPromise->__construct
+14 16 0
+cfl=(2)
+cfn=(241)
+calls=1 0 0
+16 1 0
+
+fl=(5)
+fn=(243) GuzzleHttp\Promise\rejection_for
+92 37 40
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+98 16746 14104
+cfl=(57)
+cfn=(242)
+calls=1 0 0
+98 17 0
+
+fl=(35)
+fn=(244) GuzzleHttp\Handler\CurlFactory::createRejection
+152 95 12448
+cfl=(2)
+cfn=(62)
+calls=1 0 0
+180 0 320
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+185 41134 23784
+cfl=(55)
+cfn=(238)
+calls=1 0 0
+185 88 -24
+cfl=(5)
+cfn=(243)
+calls=1 0 0
+188 16801 14144
+
+fl=(35)
+fn=(245) GuzzleHttp\Handler\CurlFactory::finishError
+130 28 0
+cfl=(2)
+cfn=(227)
+calls=1 0 0
+138 0 80
+cfl=(2)
+cfn=(228)
+calls=1 0 0
+139 0 1992
+cfl=(35)
+cfn=(232)
+calls=1 0 0
+140 0 -296
+cfl=(35)
+cfn=(244)
+calls=1 0 0
+149 58120 50672
+
+fl=(35)
+fn=(246) GuzzleHttp\Handler\CurlFactory::finish
+92 24 0
+cfl=(35)
+cfn=(245)
+calls=1 0 0
+102 58148 52448
+
+fl=(36)
+fn=(247) GuzzleHttp\Handler\CurlHandler->__invoke
+33 20 0
+cfl=(35)
+cfn=(224)
+calls=1 0 0
+39 15420 10488
+cfl=(2)
+cfn=(225)
+calls=1 0 0
+40 4897343 0
+cfl=(2)
+cfn=(226)
+calls=1 0 0
+41 0 0
+cfl=(35)
+cfn=(246)
+calls=1 0 0
+43 58172 52448
+
+fl=(32)
+fn=(248) GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}
+25 32 0
+cfl=(36)
+cfn=(247)
+calls=1 0 0
+28 4970957 62936
+
+fl=(32)
+fn=(248)
+49 20 0
+cfl=(32)
+cfn=(248)
+calls=1 0 0
+51 4970989 62936
+
+fl=(50)
+fn=(249) GuzzleHttp\PrepareBodyMiddleware->__invoke
+31 55 0
+cfl=(44)
+cfn=(192)
+calls=1 0 0
+36 0 0
+cfl=(49)
+cfn=(202)
+calls=1 0 0
+36 0 -64
+cfl=(44)
+cfn=(164)
+calls=1 0 0
+43 0 0
+cfl=(44)
+cfn=(164)
+calls=1 0 0
+52 0 0
+cfl=(44)
+cfn=(164)
+calls=1 0 0
+53 0 0
+cfl=(44)
+cfn=(192)
+calls=1 0 0
+55 0 0
+cfl=(49)
+cfn=(202)
+calls=1 0 0
+55 0 0
+cfl=(50)
+cfn=(204)
+calls=1 0 0
+64 0 0
+cfl=(7)
+cfn=(191)
+calls=1 0 0
+66 146 1936
+cfl=(32)
+cfn=(248)
+calls=1 0 0
+66 4971010 62936
+
+fl=(38)
+fn=(197)
+28 55 0
+cfl=(50)
+cfn=(249)
+calls=1 0 0
+30 4971212 64808
+
+fl=(57)
+fn=(250) GuzzleHttp\Promise\RejectedPromise->then
+24 1 -496
+
+fl=(41)
+fn=(251) GuzzleHttp\RedirectMiddleware->__invoke
+49 33 1264
+cfl=(2)
+cfn=(157)
+calls=1 0 0
+59 0 0
+cfl=(38)
+cfn=(197)
+calls=1 0 0
+70 4971267 64808
+cfl=(57)
+cfn=(250)
+calls=1 0 0
+73 1 -496
+
+fl=(57)
+fn=(250)
+24 0 -496
+
+fl=(38)
+fn=(197)
+56 36 496
+cfl=(41)
+cfn=(251)
+calls=1 0 0
+60 4971302 65576
+cfl=(57)
+cfn=(250)
+calls=1 0 0
+67 0 -496
+
+fl=(31)
+fn=(252) GuzzleHttp\HandlerStack->__invoke
+63 20 0
+cfl=(31)
+cfn=(199)
+calls=1 0 0
+65 15013 11104
+cfl=(38)
+cfn=(197)
+calls=1 0 0
+67 4971339 65576
+
+fl=(5)
+fn=(253) GuzzleHttp\Promise\promise_for
+66 0 0
+
+fl=(30)
+fn=(254) GuzzleHttp\Client->transfer
+259 79 24
+cfl=(30)
+cfn=(193)
+calls=1 0 0
+273 530 38216
+cfl=(31)
+cfn=(252)
+calls=1 0 0
+277 4986373 76680
+cfl=(5)
+cfn=(253)
+calls=1 0 0
+277 0 0
+
+fl=(30)
+fn=(255) GuzzleHttp\Client->requestAsync
+109 46 -696
+cfl=(30)
+cfn=(142)
+calls=1 0 0
+111 25 496
+cfl=(30)
+cfn=(156)
+calls=1 0 0
+117 19613 32152
+cfl=(2)
+cfn=(157)
+calls=1 0 0
+118 0 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+121 46944 48232
+cfl=(47)
+cfn=(168)
+calls=1 0 0
+121 0 696
+cfl=(30)
+cfn=(254)
+calls=1 0 0
+125 4986984 114920
+
+fl=(5)
+fn=(256) GuzzleHttp\Promise\exception_for
+108 1 0
+
+fl=(57)
+fn=(257) GuzzleHttp\Promise\RejectedPromise->wait
+59 114 3088
+cfl=(5)
+cfn=(256)
+calls=1 0 0
+62 1 0
+
+fl=(30)
+fn=(258) GuzzleHttp\Client->request
+128 76 232
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+130 15651 12896
+cfl=(30)
+cfn=(255)
+calls=1 0 0
+131 5053614 195800
+cfl=(57)
+cfn=(257)
+calls=1 0 0
+131 116 3088
+
+fl=(2)
+fn=(28)
+373 0 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 56
+
+fl=(2)
+fn=(31)
+384 543 0
+
+fl=(3)
+fn=(32)
+370 102 -40
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 56
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 543 0
+
+fl=(3)
+fn=(33)
+335 76 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 647 160
+
+fl=(2)
+fn=(28)
+373 1 64
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 9803 0
+
+fl=(3)
+fn=(32)
+370 101 -32
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 1 64
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 9803 0
+
+fl=(3)
+fn=(33)
+335 5 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 9907 160
+
+fl=(2)
+fn=(28)
+373 0 56
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 48
+
+fl=(2)
+fn=(29)
+378 0 0
+
+fl=(2)
+fn=(30)
+379 0 32
+
+fl=(2)
+fn=(30)
+382 0 48
+
+fl=(2)
+fn=(31)
+384 0 0
+
+fl=(3)
+fn=(32)
+370 0 -24
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+373 0 56
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 48
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+378 0 0
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+379 0 32
+cfl=(2)
+cfn=(30)
+calls=1 0 0
+382 0 48
+cfl=(2)
+cfn=(31)
+calls=1 0 0
+384 0 0
+
+fl=(3)
+fn=(33)
+335 0 0
+cfl=(3)
+cfn=(32)
+calls=1 0 0
+351 0 160
+
+fl=(58) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\2performant\2performant-php\src\Exception\TPException.php
+fn=(259) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\2performant\2performant-php\src\Exception\TPException.php
+1 0 0
+
+fl=(3)
+fn=(35)
+442 16555 2360
+cfl=(58)
+cfn=(259)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(36)
+319 0 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 0 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 16555 2360
+
+fl=(2)
+fn=(5)
+5 0 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+5 16555 2360
+
+fl=(59) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\2performant\2performant-php\src\Exception\TransferException.php
+fn=(260) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\2performant\2performant-php\src\Exception\TransferException.php
+1 0 808
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+5 16555 2360
+
+fl=(3)
+fn=(35)
+442 0 496
+cfl=(59)
+cfn=(260)
+calls=1 0 0
+444 16555 3168
+
+fl=(3)
+fn=(36)
+319 5 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 9912 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 16555 3664
+
+fl=(2)
+fn=(5)
+5 5 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+5 26473 3664
+
+fl=(60) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\2performant\2performant-php\src\Exception\ConnectionException.php
+fn=(261) include::C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\2performant\2performant-php\src\Exception\ConnectionException.php
+1 6 584
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+5 26479 3664
+
+fl=(3)
+fn=(35)
+442 15353 2152
+cfl=(60)
+cfn=(261)
+calls=1 0 0
+444 26485 4248
+
+fl=(3)
+fn=(36)
+319 1020 -160
+cfl=(3)
+cfn=(33)
+calls=1 0 0
+321 723 160
+cfl=(3)
+cfn=(35)
+calls=1 0 0
+322 41839 6400
+
+fl=(2)
+fn=(5)
+454 3 0
+cfl=(3)
+cfn=(36)
+calls=1 0 0
+454 43582 6400
+
+fl=(2)
+fn=(262) php::GuzzleHttp\Exception\ConnectException->getMessage
+9 0 0
+
+fl=(54)
+fn=(263) GuzzleHttp\Exception\ConnectException->getRequest
+178 0 0
+
+fl=(47)
+fn=(185)
+99 0 0
+
+fl=(40)
+fn=(146)
+383 0 0
+
+fl=(40)
+fn=(147)
+114 0 64
+
+fl=(40)
+fn=(148)
+77 0 0
+cfl=(40)
+cfn=(146)
+calls=1 0 0
+81 0 0
+cfl=(40)
+cfn=(147)
+calls=1 0 0
+84 0 64
+
+fl=(2)
+fn=(62)
+10 0 256
+cfl=(40)
+cfn=(148)
+calls=1 0 0
+10 0 64
+
+fl=(2)
+fn=(264) php::TPerformant\API\Exception\ConnectionException->__construct
+9 0 -24
+
+fl=(58)
+fn=(265) TPerformant\API\Exception\ConnectionException->__construct
+8 0 0
+cfl=(2)
+cfn=(264)
+calls=1 0 0
+9 0 -24
+
+fl=(60)
+fn=(266) TPerformant\API\Exception\ConnectionException::create
+6 0 5312
+cfl=(2)
+cfn=(262)
+calls=1 0 0
+9 0 0
+cfl=(54)
+cfn=(263)
+calls=1 0 0
+10 0 0
+cfl=(47)
+cfn=(185)
+calls=1 0 0
+10 0 0
+cfl=(2)
+cfn=(62)
+calls=1 0 0
+10 0 320
+cfl=(58)
+cfn=(265)
+calls=1 0 0
+13 0 -24
+
+fl=(28)
+fn=(267) TPerformant\API\Api->request
+425 46 2576
+cfl=(28)
+cfn=(140)
+calls=1 0 0
+426 0 40
+cfl=(30)
+cfn=(258)
+calls=1 0 0
+447 5069458 212016
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+454 43586 6400
+cfl=(60)
+cfn=(266)
+calls=1 0 0
+454 0 5608
+
+fl=(28)
+fn=(268) TPerformant\API\Api->post
+484 4 0
+cfl=(28)
+cfn=(267)
+calls=1 0 0
+485 5113091 226640
+
+fl=(28)
+fn=(269) TPerformant\API\Api->signIn
+71 5 544
+cfl=(28)
+cfn=(268)
+calls=1 0 0
+77 5113095 226640
+
+fl=(26)
+fn=(270) TPerformant\API\HTTP\Affiliate->signIn
+100 22 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+101 29174 60208
+cfl=(28)
+cfn=(139)
+calls=1 0 0
+101 171918 571992
+cfl=(28)
+cfn=(269)
+calls=1 0 0
+101 5113101 227184
+
+fl=(26)
+fn=(271) TPerformant\API\HTTP\Affiliate->__construct
+27 4 0
+cfl=(26)
+cfn=(270)
+calls=1 0 0
+29 5314216 859384
+
+fl=(27)
+fn=(271)
+27 4 0
+cfl=(26)
+cfn=(271)
+calls=1 0 0
+28 5314220 859384
+
+fl=(16)
+fn=(272) App\Integration\TwoPerformantOperations->initAffiliate
+37 56 240
+cfl=(20)
+cfn=(81)
+calls=1 0 0
+39 0 0
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+40 15614 44112
+cfl=(24)
+cfn=(90)
+calls=1 0 0
+40 0 0
+cfl=(20)
+cfn=(93)
+calls=1 0 0
+40 0 296
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+45 17518 28448
+cfl=(12)
+cfn=(97)
+calls=1 0 0
+45 0 0
+cfl=(12)
+cfn=(98)
+calls=1 0 0
+45 0 0
+cfl=(27)
+cfn=(271)
+calls=1 0 0
+45 5314224 859384
+
+fl=(16)
+fn=(273) App\Integration\TwoPerformantOperations->getAdvertisers
+58 0 0
+cfl=(16)
+cfn=(272)
+calls=1 0 0
+64 5347417 932480
+
+fl=(61) C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\index.php
+fn=(274) {main}
+
+summary: 5585811 1370968
+
+1 55 17304
+cfl=(16)
+cfn=(27)
+calls=1 0 0
+9 153643 275168
+cfl=(12)
+cfn=(78)
+calls=1 0 0
+14 37127 53968
+cfl=(2)
+cfn=(5)
+calls=1 0 0
+14 47568 92024
+cfl=(20)
+cfn=(81)
+calls=1 0 0
+14 0 0
+cfl=(16)
+cfn=(82)
+calls=1 0 0
+14 0 0
+cfl=(2)
+cfn=(6)
+calls=1 0 0
+15 0 0
+cfl=(2)
+cfn=(83)
+calls=1 0 0
+17 0 24
+cfl=(16)
+cfn=(273)
+calls=1 0 0
+18 5347417 932480
+
