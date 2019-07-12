@@ -1,9 +1,0 @@
-#force HTTPS
-RewriteEngine On 
-RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://cashbackholic.ro/$1 [R=301,L]
-
-#Force non-www:
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www\.cashbackholic\.ro [NC]
-RewriteRule ^(.*)$ https://cashbackholic.ro/$1 [L,R=301]
