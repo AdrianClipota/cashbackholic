@@ -1,0 +1,5655 @@
+version: 1
+creator: xdebug 2.6.1 (PHP 7.2.9-dev)
+cmd: C:\Users\cosmi\PhpstormProjects\OauthDF\resource.php
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(1) php:internal
+fn=(1) php::ini_set
+15 1 272
+
+fl=(1)
+fn=(2) php::error_reporting
+15 0 24
+
+fl=(2) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\composer\autoload_real.php
+fn=(3) require_once::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\composer\autoload_real.php
+1 0 0
+
+fl=(1)
+fn=(4) php::spl_autoload_register
+22 4 416
+
+fl=(3) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\composer\ClassLoader.php
+fn=(5) require::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\composer\ClassLoader.php
+1 2 0
+
+fl=(2)
+fn=(6) ComposerAutoloaderInit80944004f1c6386f2b805ded26597a75::loadClassLoader
+9 453 41880
+cfl=(3)
+cfn=(5)
+calls=1 0 0
+12 2 0
+
+fl=(1)
+fn=(7) php::spl_autoload_call
+23 20 0
+cfl=(2)
+cfn=(6)
+calls=1 0 0
+23 455 41880
+
+fl=(1)
+fn=(8) php::{zend_pass}
+23 0 0
+
+fl=(1)
+fn=(9) php::spl_autoload_unregister
+24 2 -144
+
+fl=(1)
+fn=(10) php::function_exists
+26 1 0
+
+fl=(4) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\composer\autoload_static.php
+fn=(11) require_once::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\composer\autoload_static.php
+1 1 0
+
+fl=(1)
+fn=(12) php::Closure::bind
+24 0 520
+
+fl=(4)
+fn=(13) Composer\Autoload\ComposerStaticInit80944004f1c6386f2b805ded26597a75::getInitializer
+19 18 0
+cfl=(1)
+cfn=(12)
+calls=1 0 0
+24 0 520
+
+fl=(4)
+fn=(14) Composer\Autoload\ClassLoader::Composer\Autoload\{closure}
+21 2 -568
+
+fl=(1)
+fn=(4)
+302 1 112
+
+fl=(3)
+fn=(15) Composer\Autoload\ClassLoader->register
+300 13 0
+cfl=(1)
+cfn=(4)
+calls=1 0 0
+302 1 112
+
+fl=(2)
+fn=(16) ComposerAutoloaderInit80944004f1c6386f2b805ded26597a75::getLoader
+16 294 4064
+cfl=(1)
+cfn=(4)
+calls=1 0 0
+22 4 416
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+23 475 41880
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+23 0 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+24 2 -144
+cfl=(1)
+cfn=(10)
+calls=1 0 0
+26 1 0
+cfl=(4)
+cfn=(11)
+calls=1 0 0
+28 1 0
+cfl=(4)
+cfn=(13)
+calls=1 0 0
+30 19 520
+cfl=(4)
+cfn=(14)
+calls=1 0 0
+30 2 -568
+cfl=(3)
+cfn=(15)
+calls=1 0 0
+48 15 112
+
+fl=(5) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\autoload.php
+fn=(17) require_once::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\autoload.php
+1 266 8760
+cfl=(2)
+cfn=(3)
+calls=1 0 0
+5 0 0
+cfl=(2)
+cfn=(16)
+calls=1 0 0
+7 815 46280
+
+fl=(1)
+fn=(18) php::strtr
+373 0 40
+
+fl=(1)
+fn=(19) php::strrpos
+400 0 0
+
+fl=(1)
+fn=(20) php::substr
+402 1 24
+
+fl=(1)
+fn=(20)
+403 0 32
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21) php::strpos
+411 0 0
+
+fl=(1)
+fn=(22) php::file_exists
+413 55 0
+
+fl=(3)
+fn=(23) Composer\Autoload\ClassLoader->findFileWithExtension
+370 98 32
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 40
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 1 24
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 32
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 55 0
+
+fl=(3)
+fn=(24) Composer\Autoload\ClassLoader->findFile
+335 36 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 156 128
+
+fl=(6) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Autoloader.php
+fn=(25) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Autoloader.php
+1 0 0
+
+fl=(3)
+fn=(26) Composer\Autoload\includeFile
+442 175 5672
+cfl=(6)
+cfn=(25)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27) Composer\Autoload\ClassLoader->loadClass
+319 31 -128
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 193 128
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 176 5672
+
+fl=(1)
+fn=(7)
+19 20 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+19 401 5672
+
+fl=(1)
+fn=(1)
+34 0 0
+
+fl=(1)
+fn=(28) php::is_null
+23 0 0
+
+fl=(1)
+fn=(29) php::dirname
+24 5 128
+
+fl=(6)
+fn=(30) OAuth2\Autoloader->__construct
+21 26 -16
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+23 0 0
+cfl=(1)
+cfn=(29)
+calls=1 0 0
+24 5 128
+
+fl=(1)
+fn=(4)
+35 1 96
+
+fl=(6)
+fn=(31) OAuth2\Autoloader::register
+32 44 40
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+34 0 0
+cfl=(6)
+cfn=(30)
+calls=1 0 0
+35 32 112
+cfl=(1)
+cfn=(4)
+calls=1 0 0
+35 1 96
+
+fl=(1)
+fn=(18)
+373 0 40
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 32
+
+fl=(1)
+fn=(20)
+403 0 24
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 66 0
+
+fl=(3)
+fn=(23)
+370 87 64
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 40
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 32
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 24
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 66 0
+
+fl=(3)
+fn=(24)
+335 63 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 154 160
+
+fl=(1)
+fn=(18)
+373 1 64
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 32
+
+fl=(1)
+fn=(20)
+403 0 48
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 55 0
+
+fl=(3)
+fn=(23)
+370 93 16
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 1 64
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 32
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 48
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 55 0
+
+fl=(3)
+fn=(24)
+335 36 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 150 160
+
+fl=(7) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\AuthorizationCodeInterface.php
+fn=(32) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\AuthorizationCodeInterface.php
+1 0 0
+
+fl=(3)
+fn=(26)
+442 164 5672
+cfl=(7)
+cfn=(32)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27)
+319 31 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 187 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 165 5672
+
+fl=(1)
+fn=(7)
+21 19 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+21 385 5672
+
+fl=(1)
+fn=(18)
+373 0 56
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 32
+
+fl=(1)
+fn=(20)
+403 0 48
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 51 0
+
+fl=(3)
+fn=(23)
+370 87 24
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 56
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 32
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 48
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 51 0
+
+fl=(3)
+fn=(24)
+335 35 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 138 160
+
+fl=(8) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\AccessTokenInterface.php
+fn=(33) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\AccessTokenInterface.php
+1 0 0
+
+fl=(3)
+fn=(26)
+442 153 3176
+cfl=(8)
+cfn=(33)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27)
+319 30 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 174 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 154 3176
+
+fl=(1)
+fn=(7)
+21 18 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+21 358 3176
+
+fl=(1)
+fn=(18)
+373 0 64
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 1 32
+
+fl=(1)
+fn=(20)
+403 0 48
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 50 0
+
+fl=(3)
+fn=(23)
+370 85 16
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 64
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 1 32
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 48
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 50 0
+
+fl=(3)
+fn=(24)
+335 33 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 138 160
+
+fl=(1)
+fn=(18)
+373 0 48
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 32
+
+fl=(1)
+fn=(20)
+403 0 40
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 49 0
+
+fl=(3)
+fn=(23)
+370 91 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 48
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 32
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 49 0
+
+fl=(3)
+fn=(24)
+335 35 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 141 160
+
+fl=(9) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\ClientInterface.php
+fn=(34) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\ClientInterface.php
+1 0 0
+
+fl=(3)
+fn=(26)
+442 147 4064
+cfl=(9)
+cfn=(34)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27)
+319 30 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 177 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 148 4064
+
+fl=(1)
+fn=(7)
+11 19 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+11 355 4064
+
+fl=(10) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\ClientCredentialsInterface.php
+fn=(35) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\ClientCredentialsInterface.php
+1 16 8
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+11 375 4064
+
+fl=(3)
+fn=(26)
+442 153 2448
+cfl=(10)
+cfn=(35)
+calls=1 0 0
+444 391 4072
+
+fl=(3)
+fn=(27)
+319 32 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 172 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 545 6520
+
+fl=(1)
+fn=(7)
+21 16 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+21 750 6520
+
+fl=(1)
+fn=(18)
+373 0 56
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 32
+
+fl=(1)
+fn=(20)
+403 0 48
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 51 0
+
+fl=(3)
+fn=(23)
+370 87 24
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 56
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 32
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 48
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 51 0
+
+fl=(3)
+fn=(24)
+335 35 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 138 160
+
+fl=(11) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\UserCredentialsInterface.php
+fn=(36) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\UserCredentialsInterface.php
+1 1 0
+
+fl=(3)
+fn=(26)
+442 143 2912
+cfl=(11)
+cfn=(36)
+calls=1 0 0
+444 1 0
+
+fl=(3)
+fn=(27)
+319 30 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 174 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 144 2912
+
+fl=(1)
+fn=(7)
+21 18 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+21 349 2912
+
+fl=(1)
+fn=(18)
+373 0 56
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 32
+
+fl=(1)
+fn=(20)
+403 0 48
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 49 0
+
+fl=(3)
+fn=(23)
+370 85 24
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 56
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 32
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 48
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 49 0
+
+fl=(3)
+fn=(24)
+335 35 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 135 160
+
+fl=(12) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\RefreshTokenInterface.php
+fn=(37) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\RefreshTokenInterface.php
+1 1 0
+
+fl=(3)
+fn=(26)
+442 160 4080
+cfl=(12)
+cfn=(37)
+calls=1 0 0
+444 1 0
+
+fl=(3)
+fn=(27)
+319 30 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 171 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 162 4080
+
+fl=(1)
+fn=(7)
+21 19 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+21 363 4080
+
+fl=(1)
+fn=(18)
+373 0 56
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 1 32
+
+fl=(1)
+fn=(20)
+403 0 40
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 48 0
+
+fl=(3)
+fn=(23)
+370 86 32
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 56
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 1 32
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 48 0
+
+fl=(3)
+fn=(24)
+335 34 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 137 160
+
+fl=(13) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\JwtBearerInterface.php
+fn=(38) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\JwtBearerInterface.php
+1 0 0
+
+fl=(3)
+fn=(26)
+442 148 3744
+cfl=(13)
+cfn=(38)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27)
+319 30 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 171 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 149 3744
+
+fl=(1)
+fn=(7)
+21 17 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+21 350 3744
+
+fl=(1)
+fn=(18)
+373 0 48
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 32
+
+fl=(1)
+fn=(20)
+403 0 40
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 47 0
+
+fl=(3)
+fn=(23)
+370 87 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 48
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 32
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 47 0
+
+fl=(3)
+fn=(24)
+335 35 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 135 160
+
+fl=(14) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\ScopeInterface.php
+fn=(39) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\ScopeInterface.php
+1 0 0
+
+fl=(3)
+fn=(26)
+442 144 2120
+cfl=(14)
+cfn=(39)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27)
+319 33 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 171 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 144 2120
+
+fl=(1)
+fn=(7)
+21 17 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+21 349 2120
+
+fl=(1)
+fn=(18)
+373 0 56
+
+fl=(1)
+fn=(19)
+400 1 0
+
+fl=(1)
+fn=(20)
+402 0 32
+
+fl=(1)
+fn=(20)
+403 0 40
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 47 0
+
+fl=(3)
+fn=(23)
+370 86 32
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 56
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 1 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 32
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 47 0
+
+fl=(3)
+fn=(24)
+335 34 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 136 160
+
+fl=(15) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\PublicKeyInterface.php
+fn=(40) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\PublicKeyInterface.php
+1 1 0
+
+fl=(3)
+fn=(26)
+442 147 2632
+cfl=(15)
+cfn=(40)
+calls=1 0 0
+444 1 0
+
+fl=(3)
+fn=(27)
+319 30 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 170 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 149 2632
+
+fl=(1)
+fn=(7)
+21 18 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+21 350 2632
+
+fl=(1)
+fn=(18)
+373 1 64
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 40
+
+fl=(1)
+fn=(20)
+403 0 40
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 50 0
+
+fl=(3)
+fn=(23)
+370 85 16
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 1 64
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 40
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 50 0
+
+fl=(3)
+fn=(24)
+335 36 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 138 160
+
+fl=(16) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\OpenID\Storage\UserClaimsInterface.php
+fn=(41) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\OpenID\Storage\UserClaimsInterface.php
+1 1 0
+
+fl=(3)
+fn=(26)
+442 147 2440
+cfl=(16)
+cfn=(41)
+calls=1 0 0
+444 1 0
+
+fl=(3)
+fn=(27)
+319 30 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 174 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 149 2440
+
+fl=(1)
+fn=(7)
+21 17 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+21 353 2440
+
+fl=(1)
+fn=(18)
+373 0 80
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 40
+
+fl=(1)
+fn=(20)
+403 0 48
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 53 0
+
+fl=(3)
+fn=(23)
+370 86 -8
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 80
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 40
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 48
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 53 0
+
+fl=(3)
+fn=(24)
+335 34 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 142 160
+
+fl=(17) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\OpenID\Storage\AuthorizationCodeInterface.php
+fn=(42) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\OpenID\Storage\AuthorizationCodeInterface.php
+1 2 232
+
+fl=(3)
+fn=(26)
+442 151 2848
+cfl=(17)
+cfn=(42)
+calls=1 0 0
+444 2 232
+
+fl=(3)
+fn=(27)
+319 30 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 176 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 154 3080
+
+fl=(1)
+fn=(7)
+21 17 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+21 360 3080
+
+fl=(18) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\Pdo.php
+fn=(43) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Storage\Pdo.php
+1 161 272
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+21 404 5672
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+21 376 3176
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+21 766 6520
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+21 368 2912
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+21 383 4080
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+21 368 3744
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+21 367 2120
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+21 369 2632
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+21 370 2440
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+21 378 3080
+
+fl=(3)
+fn=(26)
+442 754 91952
+cfl=(18)
+cfn=(43)
+calls=1 0 0
+444 4316 36648
+
+fl=(3)
+fn=(27)
+319 33 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 218 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 5070 128600
+
+fl=(1)
+fn=(7)
+22 18 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+22 5321 128600
+
+fl=(1)
+fn=(44) php::is_string
+52 0 0
+
+fl=(1)
+fn=(45) php::is_array
+55 0 0
+
+fl=(1)
+fn=(46) php::array_merge
+66 0 272
+
+fl=(1)
+fn=(47) php::PDO->__construct
+67 6326 12864
+
+fl=(1)
+fn=(48) php::PDO->setAttribute
+72 0 0
+
+fl=(1)
+fn=(46)
+84 0 496
+
+fl=(18)
+fn=(49) OAuth2\Storage\Pdo->__construct
+49 120 -336
+cfl=(1)
+cfn=(44)
+calls=1 0 0
+52 0 0
+cfl=(1)
+cfn=(45)
+calls=1 0 0
+55 0 0
+cfl=(1)
+cfn=(46)
+calls=1 0 0
+66 0 272
+cfl=(1)
+cfn=(47)
+calls=1 0 0
+67 6326 12864
+cfl=(1)
+cfn=(48)
+calls=1 0 0
+72 0 0
+cfl=(1)
+cfn=(46)
+calls=1 0 0
+84 0 496
+
+fl=(1)
+fn=(18)
+373 0 32
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 24
+
+fl=(1)
+fn=(20)
+403 0 32
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 133 0
+
+fl=(3)
+fn=(23)
+370 96 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 32
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 24
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 32
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 133 0
+
+fl=(3)
+fn=(24)
+335 37 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 231 128
+
+fl=(1)
+fn=(18)
+373 0 64
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 40
+
+fl=(1)
+fn=(20)
+403 0 48
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 84 0
+
+fl=(3)
+fn=(23)
+370 96 8
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 64
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 40
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 48
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 84 0
+
+fl=(3)
+fn=(24)
+335 36 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 184 160
+
+fl=(19) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\ResourceControllerInterface.php
+fn=(50) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\ResourceControllerInterface.php
+1 1 0
+
+fl=(3)
+fn=(26)
+442 172 2408
+cfl=(19)
+cfn=(50)
+calls=1 0 0
+444 1 0
+
+fl=(3)
+fn=(27)
+319 31 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 220 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 174 2408
+
+fl=(1)
+fn=(7)
+48 20 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+48 426 2408
+
+fl=(1)
+fn=(18)
+373 0 64
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 40
+
+fl=(1)
+fn=(20)
+403 0 56
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 51 0
+
+fl=(3)
+fn=(23)
+370 88 0
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 64
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 40
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 56
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 51 0
+
+fl=(3)
+fn=(24)
+335 34 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 140 160
+
+fl=(20) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\AuthorizeControllerInterface.php
+fn=(51) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\AuthorizeControllerInterface.php
+1 1 0
+
+fl=(3)
+fn=(26)
+442 168 3440
+cfl=(20)
+cfn=(51)
+calls=1 0 0
+444 1 0
+
+fl=(3)
+fn=(27)
+319 30 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 174 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 169 3440
+
+fl=(1)
+fn=(7)
+48 18 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+48 375 3440
+
+fl=(1)
+fn=(18)
+373 0 64
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 40
+
+fl=(1)
+fn=(20)
+403 1 48
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 50 0
+
+fl=(3)
+fn=(23)
+370 84 8
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 64
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 40
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 1 48
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 50 0
+
+fl=(3)
+fn=(24)
+335 34 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 138 160
+
+fl=(21) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenControllerInterface.php
+fn=(52) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenControllerInterface.php
+1 2 0
+
+fl=(3)
+fn=(26)
+442 160 2312
+cfl=(21)
+cfn=(52)
+calls=1 0 0
+444 2 0
+
+fl=(3)
+fn=(27)
+319 35 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 172 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 163 2312
+
+fl=(1)
+fn=(7)
+48 19 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+48 370 2312
+
+fl=(1)
+fn=(18)
+373 0 80
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 48
+
+fl=(1)
+fn=(20)
+403 0 48
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 51 0
+
+fl=(3)
+fn=(23)
+370 88 16
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 80
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 48
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 48
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 51 0
+
+fl=(3)
+fn=(24)
+335 34 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 141 192
+
+fl=(22) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\OpenID\Controller\UserInfoControllerInterface.php
+fn=(53) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\OpenID\Controller\UserInfoControllerInterface.php
+1 0 0
+
+fl=(3)
+fn=(26)
+442 145 1552
+cfl=(22)
+cfn=(53)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27)
+319 31 -192
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 175 192
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 146 1552
+
+fl=(1)
+fn=(7)
+48 17 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+48 354 1552
+
+fl=(23) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Server.php
+fn=(54) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Server.php
+1 78 240
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+48 446 2408
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+48 394 3440
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+48 390 2312
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+48 371 1552
+
+fl=(3)
+fn=(26)
+442 968 118576
+cfl=(23)
+cfn=(54)
+calls=1 0 0
+444 1681 9952
+
+fl=(3)
+fn=(27)
+319 31 -128
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 269 128
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 2650 128528
+
+fl=(1)
+fn=(7)
+25 19 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+25 2951 128528
+
+fl=(1)
+fn=(45)
+155 0 0
+
+fl=(1)
+fn=(28)
+490 0 0
+
+fl=(1)
+fn=(55) php::is_numeric
+490 0 0
+
+fl=(23)
+fn=(56) OAuth2\Server->addStorage
+471 36 496
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+490 0 0
+cfl=(1)
+cfn=(55)
+calls=1 0 0
+490 0 0
+
+fl=(1)
+fn=(46)
+178 0 496
+
+fl=(23)
+fn=(57) OAuth2\Server->__construct
+153 50 0
+cfl=(1)
+cfn=(45)
+calls=1 0 0
+155 0 0
+cfl=(23)
+cfn=(56)
+calls=1 0 0
+158 36 496
+cfl=(1)
+cfn=(46)
+calls=1 0 0
+178 0 496
+
+fl=(1)
+fn=(18)
+373 0 56
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 40
+
+fl=(1)
+fn=(20)
+403 0 40
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 52 0
+
+fl=(3)
+fn=(23)
+370 86 24
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 56
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 40
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 52 0
+
+fl=(3)
+fn=(24)
+335 34 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 140 160
+
+fl=(1)
+fn=(18)
+373 0 56
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 48
+
+fl=(1)
+fn=(20)
+403 0 32
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 51 0
+
+fl=(3)
+fn=(23)
+370 91 24
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 56
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 48
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 32
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 51 0
+
+fl=(3)
+fn=(24)
+335 35 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 144 160
+
+fl=(1)
+fn=(18)
+373 0 80
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 48
+
+fl=(1)
+fn=(20)
+403 0 56
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 1 0
+
+fl=(1)
+fn=(22)
+413 52 0
+
+fl=(3)
+fn=(23)
+370 91 8
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 80
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 48
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 56
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 1 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 52 0
+
+fl=(3)
+fn=(24)
+335 36 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 148 192
+
+fl=(24) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\ClientAssertionType\ClientAssertionTypeInterface.php
+fn=(58) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\ClientAssertionType\ClientAssertionTypeInterface.php
+1 0 0
+
+fl=(3)
+fn=(26)
+442 150 1520
+cfl=(24)
+cfn=(58)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27)
+319 35 -192
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 185 192
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 151 1520
+
+fl=(1)
+fn=(7)
+15 19 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+15 371 1520
+
+fl=(25) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\ClientAssertionType\HttpBasic.php
+fn=(59) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\ClientAssertionType\HttpBasic.php
+1 19 8
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+15 391 1520
+
+fl=(3)
+fn=(26)
+442 241 13624
+cfl=(25)
+cfn=(59)
+calls=1 0 0
+444 410 1528
+
+fl=(3)
+fn=(27)
+319 29 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 179 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 652 15152
+
+fl=(1)
+fn=(7)
+14 17 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+14 860 15152
+
+fl=(1)
+fn=(18)
+373 0 56
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 40
+
+fl=(1)
+fn=(20)
+403 1 40
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 48 0
+
+fl=(3)
+fn=(23)
+370 87 24
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 56
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 40
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 1 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 48 0
+
+fl=(3)
+fn=(24)
+335 35 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 138 160
+
+fl=(26) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\GrantType\GrantTypeInterface.php
+fn=(60) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\GrantType\GrantTypeInterface.php
+1 0 0
+
+fl=(3)
+fn=(26)
+442 154 3128
+cfl=(26)
+cfn=(60)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27)
+319 30 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 173 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 154 3128
+
+fl=(1)
+fn=(7)
+14 19 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+14 359 3128
+
+fl=(27) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\GrantType\ClientCredentials.php
+fn=(61) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\GrantType\ClientCredentials.php
+1 40 280
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+14 877 15152
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+14 378 3128
+
+fl=(3)
+fn=(26)
+442 194 6496
+cfl=(27)
+cfn=(61)
+calls=1 0 0
+444 1296 18560
+
+fl=(3)
+fn=(27)
+319 29 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 174 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 1490 25056
+
+fl=(1)
+fn=(7)
+28 18 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+28 1694 25056
+
+fl=(1)
+fn=(46)
+40 0 272
+
+fl=(25)
+fn=(62) OAuth2\GrantType\ClientCredentials->__construct
+34 14 0
+cfl=(1)
+cfn=(46)
+calls=1 0 0
+40 0 272
+
+fl=(27)
+fn=(62)
+25 17 0
+cfl=(25)
+cfn=(62)
+calls=1 0 0
+34 15 272
+
+fl=(1)
+fn=(44)
+450 0 0
+
+fl=(27)
+fn=(63) OAuth2\GrantType\ClientCredentials->getQueryStringIdentifier
+42 0 0
+
+fl=(1)
+fn=(28)
+457 0 0
+
+fl=(23)
+fn=(64) OAuth2\Server->addGrantType
+448 40 224
+cfl=(1)
+cfn=(44)
+calls=1 0 0
+450 0 0
+cfl=(27)
+cfn=(63)
+calls=1 0 0
+451 0 0
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+457 0 0
+
+fl=(1)
+fn=(18)
+373 0 56
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 1 40
+
+fl=(1)
+fn=(20)
+403 0 40
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 48 0
+
+fl=(3)
+fn=(23)
+370 87 24
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 56
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 1 40
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 48 0
+
+fl=(3)
+fn=(24)
+335 34 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 137 160
+
+fl=(28) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\GrantType\AuthorizationCode.php
+fn=(65) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\GrantType\AuthorizationCode.php
+1 5 8
+
+fl=(3)
+fn=(26)
+442 234 11504
+cfl=(28)
+cfn=(65)
+calls=1 0 0
+444 5 8
+
+fl=(3)
+fn=(27)
+319 32 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 171 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 240 11512
+
+fl=(1)
+fn=(7)
+31 17 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+31 444 11512
+
+fl=(28)
+fn=(66) OAuth2\GrantType\AuthorizationCode->__construct
+29 1 0
+
+fl=(1)
+fn=(44)
+450 0 0
+
+fl=(28)
+fn=(67) OAuth2\GrantType\AuthorizationCode->getQueryStringIdentifier
+37 0 0
+
+fl=(1)
+fn=(28)
+457 0 0
+
+fl=(23)
+fn=(64)
+448 37 0
+cfl=(1)
+cfn=(44)
+calls=1 0 0
+450 0 0
+cfl=(28)
+cfn=(67)
+calls=1 0 0
+451 0 0
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+457 0 0
+
+fl=(29) C:\Users\cosmi\PhpstormProjects\OauthDF\server.php
+fn=(68) require_once::C:\Users\cosmi\PhpstormProjects\OauthDF\server.php
+1 468 2000
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+15 1 272
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+15 0 24
+cfl=(5)
+cfn=(17)
+calls=1 0 0
+18 1083 55040
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+19 422 5672
+cfl=(6)
+cfn=(31)
+calls=1 0 0
+19 79 248
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+22 5340 128600
+cfl=(18)
+cfn=(49)
+calls=1 0 0
+22 6449 13296
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+25 2970 128528
+cfl=(23)
+cfn=(57)
+calls=1 0 0
+25 87 992
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+28 1713 25056
+cfl=(27)
+cfn=(62)
+calls=1 0 0
+28 32 272
+cfl=(23)
+cfn=(64)
+calls=1 0 0
+28 40 224
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+31 462 11512
+cfl=(28)
+cfn=(66)
+calls=1 0 0
+31 1 0
+cfl=(23)
+cfn=(64)
+calls=1 0 0
+31 38 0
+
+fl=(1)
+fn=(18)
+373 0 32
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 24
+
+fl=(1)
+fn=(20)
+403 0 32
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 50 0
+
+fl=(3)
+fn=(23)
+370 87 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 32
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 24
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 32
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 50 0
+
+fl=(3)
+fn=(24)
+335 35 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 138 128
+
+fl=(1)
+fn=(18)
+373 0 40
+
+fl=(1)
+fn=(19)
+400 1 0
+
+fl=(1)
+fn=(20)
+402 0 24
+
+fl=(1)
+fn=(20)
+403 0 40
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 55 0
+
+fl=(3)
+fn=(23)
+370 92 56
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 40
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 1 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 24
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 55 0
+
+fl=(3)
+fn=(24)
+335 34 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 150 160
+
+fl=(30) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\RequestInterface.php
+fn=(69) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\RequestInterface.php
+1 1 0
+
+fl=(3)
+fn=(26)
+442 150 2392
+cfl=(30)
+cfn=(69)
+calls=1 0 0
+444 1 0
+
+fl=(3)
+fn=(27)
+319 32 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 185 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 151 2392
+
+fl=(1)
+fn=(7)
+12 18 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+12 369 2392
+
+fl=(31) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Request.php
+fn=(70) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Request.php
+1 16 8
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+12 387 2392
+
+fl=(3)
+fn=(26)
+442 342 31960
+cfl=(31)
+cfn=(70)
+calls=1 0 0
+444 404 2400
+
+fl=(3)
+fn=(27)
+319 28 -128
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 174 128
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 746 34360
+
+fl=(1)
+fn=(7)
+13 18 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+13 949 34360
+
+fl=(1)
+fn=(71) php::get_called_class
+226 0 0
+
+fl=(1)
+fn=(28)
+67 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72) php::in_array
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 1 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 1 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 1 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 1 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(20)
+157 0 32
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(20)
+157 0 32
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(20)
+157 0 24
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(20)
+157 0 32
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(20)
+157 0 24
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 1 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 1 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(21)
+156 0 0
+
+fl=(1)
+fn=(72)
+160 0 0
+
+fl=(1)
+fn=(10)
+186 0 0
+
+fl=(1)
+fn=(73) php::apache_request_headers
+187 3 584
+
+fl=(1)
+fn=(74) php::array_keys
+190 0 272
+
+fl=(1)
+fn=(75) php::ucwords
+190 1 32
+
+fl=(1)
+fn=(75)
+190 0 32
+
+fl=(1)
+fn=(75)
+190 0 24
+
+fl=(1)
+fn=(75)
+190 0 32
+
+fl=(1)
+fn=(75)
+190 0 24
+
+fl=(1)
+fn=(76) php::array_map
+190 64 272
+cfl=(1)
+cfn=(75)
+calls=1 0 0
+190 1 32
+cfl=(1)
+cfn=(75)
+calls=1 0 0
+190 0 32
+cfl=(1)
+cfn=(75)
+calls=1 0 0
+190 0 24
+cfl=(1)
+cfn=(75)
+calls=1 0 0
+190 0 32
+cfl=(1)
+cfn=(75)
+calls=1 0 0
+190 0 24
+
+fl=(1)
+fn=(77) php::array_values
+190 0 272
+
+fl=(1)
+fn=(78) php::array_combine
+190 0 272
+
+fl=(31)
+fn=(79) OAuth2\Request->getHeadersFromServer
+152 1999 -1544
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 1 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 1 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 1 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 1 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+157 0 32
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+157 0 32
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+157 0 24
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+157 0 32
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+157 0 24
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 1 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 1 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+156 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+160 0 0
+cfl=(1)
+cfn=(10)
+calls=1 0 0
+186 0 0
+cfl=(1)
+cfn=(73)
+calls=1 0 0
+187 3 584
+cfl=(1)
+cfn=(74)
+calls=1 0 0
+190 0 272
+cfl=(1)
+cfn=(76)
+calls=1 0 0
+190 66 416
+cfl=(1)
+cfn=(77)
+calls=1 0 0
+190 0 272
+cfl=(1)
+cfn=(78)
+calls=1 0 0
+190 0 272
+
+fl=(31)
+fn=(80) OAuth2\Request->initialize
+58 523 0
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+67 0 0
+cfl=(31)
+cfn=(79)
+calls=1 0 0
+67 2104 416
+
+fl=(31)
+fn=(81) OAuth2\Request->__construct
+37 23 0
+cfl=(31)
+cfn=(80)
+calls=1 0 0
+39 2627 416
+
+fl=(31)
+fn=(82) OAuth2\Request->server
+95 1 0
+
+fl=(31)
+fn=(82)
+95 0 0
+
+fl=(1)
+fn=(21)
+233 0 0
+
+fl=(1)
+fn=(83) php::strtoupper
+234 0 0
+
+fl=(1)
+fn=(72)
+234 0 0
+
+fl=(1)
+fn=(21)
+238 0 0
+
+fl=(31)
+fn=(84) OAuth2\Request::createFromGlobals
+224 102 160
+cfl=(1)
+cfn=(71)
+calls=1 0 0
+226 0 0
+cfl=(31)
+cfn=(81)
+calls=1 0 0
+229 2650 416
+cfl=(31)
+cfn=(82)
+calls=1 0 0
+231 1 0
+cfl=(31)
+cfn=(82)
+calls=1 0 0
+232 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+233 0 0
+cfl=(1)
+cfn=(83)
+calls=1 0 0
+234 0 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+234 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+238 0 0
+
+fl=(1)
+fn=(28)
+425 1 0
+
+fl=(1)
+fn=(18)
+373 0 32
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 24
+
+fl=(1)
+fn=(20)
+403 0 32
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 48 0
+
+fl=(3)
+fn=(23)
+370 88 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 32
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 24
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 32
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 48 0
+
+fl=(3)
+fn=(24)
+335 34 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 137 128
+
+fl=(1)
+fn=(18)
+373 0 48
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 24
+
+fl=(1)
+fn=(20)
+403 0 40
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 51 0
+
+fl=(3)
+fn=(23)
+370 93 48
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 48
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 24
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 51 0
+
+fl=(3)
+fn=(24)
+335 36 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 145 160
+
+fl=(32) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\ResponseInterface.php
+fn=(85) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\ResponseInterface.php
+1 0 0
+
+fl=(3)
+fn=(26)
+442 163 5248
+cfl=(32)
+cfn=(85)
+calls=1 0 0
+444 0 0
+
+fl=(3)
+fn=(27)
+319 30 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 181 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 164 5248
+
+fl=(1)
+fn=(7)
+16 20 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+16 376 5248
+
+fl=(33) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Response.php
+fn=(86) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Response.php
+1 18 8
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+16 396 5248
+
+fl=(3)
+fn=(26)
+442 449 44904
+cfl=(33)
+cfn=(86)
+calls=1 0 0
+444 415 5256
+
+fl=(3)
+fn=(27)
+319 30 -128
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 171 128
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 864 50160
+
+fl=(1)
+fn=(7)
+425 16 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+425 1067 50160
+
+fl=(33)
+fn=(87) OAuth2\Response->setParameters
+176 0 -48
+
+fl=(33)
+fn=(88) OAuth2\Response->isInvalid
+387 1 0
+
+fl=(33)
+fn=(89) OAuth2\Response->setStatusCode
+147 15 0
+cfl=(33)
+cfn=(88)
+calls=1 0 0
+150 1 0
+
+fl=(33)
+fn=(90) OAuth2\Response->setHttpHeaders
+211 0 -48
+
+fl=(33)
+fn=(91) OAuth2\Response->__construct
+95 41 0
+cfl=(33)
+cfn=(87)
+calls=1 0 0
+97 0 -48
+cfl=(33)
+cfn=(89)
+calls=1 0 0
+98 16 0
+cfl=(33)
+cfn=(90)
+calls=1 0 0
+99 0 -48
+
+fl=(1)
+fn=(28)
+226 0 0
+
+fl=(1)
+fn=(92) php::explode
+678 0 360
+
+fl=(1)
+fn=(93) php::array_flip
+678 1 272
+
+fl=(1)
+fn=(94) php::array_intersect_key
+678 0 272
+
+fl=(1)
+fn=(18)
+373 1 40
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 1 40
+
+fl=(1)
+fn=(20)
+403 0 32
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 50 0
+
+fl=(3)
+fn=(23)
+370 84 48
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 1 40
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 1 40
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 32
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 50 0
+
+fl=(3)
+fn=(24)
+335 33 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 137 160
+
+fl=(1)
+fn=(18)
+373 0 56
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 40
+
+fl=(1)
+fn=(20)
+403 0 40
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 51 0
+
+fl=(3)
+fn=(23)
+370 92 24
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 56
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 40
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 51 0
+
+fl=(3)
+fn=(24)
+335 35 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 144 160
+
+fl=(34) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\TokenType\TokenTypeInterface.php
+fn=(95) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\TokenType\TokenTypeInterface.php
+1 2 0
+
+fl=(3)
+fn=(26)
+442 145 1336
+cfl=(34)
+cfn=(95)
+calls=1 0 0
+444 2 0
+
+fl=(3)
+fn=(27)
+319 32 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 180 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 148 1336
+
+fl=(1)
+fn=(7)
+11 18 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+11 360 1336
+
+fl=(35) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\TokenType\Bearer.php
+fn=(96) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\TokenType\Bearer.php
+1 19 8
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+11 379 1336
+
+fl=(3)
+fn=(26)
+442 240 16248
+cfl=(35)
+cfn=(96)
+calls=1 0 0
+444 399 1344
+
+fl=(3)
+fn=(27)
+319 30 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 170 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 639 17592
+
+fl=(1)
+fn=(7)
+680 17 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+680 841 17592
+
+fl=(1)
+fn=(46)
+20 0 272
+
+fl=(35)
+fn=(97) OAuth2\TokenType\Bearer->__construct
+15 12 0
+cfl=(1)
+cfn=(46)
+calls=1 0 0
+20 0 272
+
+fl=(23)
+fn=(98) OAuth2\Server->getDefaultTokenType
+676 71 -864
+cfl=(1)
+cfn=(92)
+calls=1 0 0
+678 0 360
+cfl=(1)
+cfn=(93)
+calls=1 0 0
+678 1 272
+cfl=(1)
+cfn=(94)
+calls=1 0 0
+678 0 272
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+680 859 17592
+cfl=(35)
+cfn=(97)
+calls=1 0 0
+680 13 272
+
+fl=(1)
+fn=(94)
+640 0 272
+
+fl=(1)
+fn=(18)
+373 0 56
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 40
+
+fl=(1)
+fn=(20)
+403 0 40
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 50 0
+
+fl=(3)
+fn=(23)
+370 89 24
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 56
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 40
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 50 0
+
+fl=(3)
+fn=(24)
+335 35 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 141 160
+
+fl=(36) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\ResourceController.php
+fn=(99) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\ResourceController.php
+1 5 8
+
+fl=(3)
+fn=(26)
+442 259 15024
+cfl=(36)
+cfn=(99)
+calls=1 0 0
+444 5 8
+
+fl=(3)
+fn=(27)
+319 30 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 176 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 265 15032
+
+fl=(1)
+fn=(7)
+642 18 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+642 472 15032
+
+fl=(1)
+fn=(18)
+373 0 32
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 24
+
+fl=(1)
+fn=(20)
+403 0 32
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 51 0
+
+fl=(3)
+fn=(23)
+370 87 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 32
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 24
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 32
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 51 0
+
+fl=(3)
+fn=(24)
+335 35 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 139 128
+
+fl=(1)
+fn=(18)
+373 0 40
+
+fl=(1)
+fn=(19)
+400 0 0
+
+fl=(1)
+fn=(20)
+402 0 24
+
+fl=(1)
+fn=(20)
+403 0 40
+
+fl=(1)
+fn=(18)
+403 0 0
+
+fl=(1)
+fn=(21)
+411 0 0
+
+fl=(1)
+fn=(22)
+413 47 0
+
+fl=(3)
+fn=(23)
+370 92 56
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+373 0 40
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+400 0 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+402 0 24
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+403 0 40
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+403 0 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+411 0 0
+cfl=(1)
+cfn=(22)
+calls=1 0 0
+413 47 0
+
+fl=(3)
+fn=(24)
+335 35 0
+cfl=(3)
+cfn=(23)
+calls=1 0 0
+351 142 160
+
+fl=(37) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\ScopeInterface.php
+fn=(100) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\ScopeInterface.php
+1 3 8
+
+fl=(3)
+fn=(26)
+442 144 2064
+cfl=(37)
+cfn=(100)
+calls=1 0 0
+444 3 8
+
+fl=(3)
+fn=(27)
+319 30 -160
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 177 160
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 147 2072
+
+fl=(1)
+fn=(7)
+12 19 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+12 355 2072
+
+fl=(38) C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Scope.php
+fn=(101) include::C:\Users\cosmi\PhpstormProjects\OauthDF\vendor\bshaffer\oauth2-server-php\src\OAuth2\Scope.php
+1 18 8
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+12 374 2072
+
+fl=(3)
+fn=(26)
+442 207 10560
+cfl=(38)
+cfn=(101)
+calls=1 0 0
+444 392 2080
+
+fl=(3)
+fn=(27)
+319 30 -128
+cfl=(3)
+cfn=(24)
+calls=1 0 0
+321 174 128
+cfl=(3)
+cfn=(26)
+calls=1 0 0
+322 600 12640
+
+fl=(1)
+fn=(7)
+546 17 0
+cfl=(3)
+cfn=(27)
+calls=1 0 0
+546 806 12640
+
+fl=(1)
+fn=(28)
+25 0 0
+
+fl=(1)
+fn=(45)
+25 0 0
+
+fl=(38)
+fn=(102) OAuth2\Scope->__construct
+23 25 0
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+25 0 0
+cfl=(1)
+cfn=(45)
+calls=1 0 0
+25 0 0
+
+fl=(23)
+fn=(103) OAuth2\Server->getScopeUtil
+542 36 40
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+546 823 12640
+cfl=(38)
+cfn=(102)
+calls=1 0 0
+546 25 0
+
+fl=(1)
+fn=(46)
+57 0 272
+
+fl=(1)
+fn=(28)
+59 0 0
+
+fl=(36)
+fn=(104) OAuth2\Controller\ResourceController->__construct
+50 26 0
+cfl=(1)
+cfn=(46)
+calls=1 0 0
+57 0 272
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+59 0 0
+
+fl=(23)
+fn=(105) OAuth2\Server->createDefaultResourceController
+625 96 -160
+cfl=(23)
+cfn=(98)
+calls=1 0 0
+637 946 17904
+cfl=(1)
+cfn=(94)
+calls=1 0 0
+640 0 272
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+642 491 15032
+cfl=(23)
+cfn=(103)
+calls=1 0 0
+642 885 12680
+cfl=(36)
+cfn=(104)
+calls=1 0 0
+642 26 272
+
+fl=(23)
+fn=(106) OAuth2\Server->getResourceController
+224 41 0
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+226 0 0
+cfl=(23)
+cfn=(105)
+calls=1 0 0
+227 2448 46000
+
+fl=(1)
+fn=(107) php::array_change_key_case
+107 3 416
+
+fl=(1)
+fn=(108) php::strtolower
+108 0 32
+
+fl=(31)
+fn=(109) OAuth2\Request->headers
+105 30 -448
+cfl=(1)
+cfn=(107)
+calls=1 0 0
+107 3 416
+cfl=(1)
+cfn=(108)
+calls=1 0 0
+108 0 32
+
+fl=(31)
+fn=(110) OAuth2\Request->query
+75 0 0
+
+fl=(31)
+fn=(111) OAuth2\Request->request
+85 0 0
+
+fl=(33)
+fn=(88)
+387 0 0
+
+fl=(33)
+fn=(89)
+147 15 0
+cfl=(33)
+cfn=(88)
+calls=1 0 0
+150 0 0
+
+fl=(35)
+fn=(112) OAuth2\TokenType\Bearer->getAccessTokenParameter
+63 65 0
+cfl=(31)
+cfn=(109)
+calls=1 0 0
+65 35 0
+cfl=(31)
+cfn=(110)
+calls=1 0 0
+73 0 0
+cfl=(31)
+cfn=(111)
+calls=1 0 0
+73 0 0
+cfl=(33)
+cfn=(89)
+calls=1 0 0
+87 15 0
+
+fl=(35)
+fn=(113) OAuth2\TokenType\Bearer->getTokenType
+23 0 0
+
+fl=(1)
+fn=(114) php::sprintf
+133 1 320
+
+fl=(33)
+fn=(115) OAuth2\Response->getParameter
+194 0 0
+
+fl=(1)
+fn=(46)
+230 0 272
+
+fl=(33)
+fn=(116) OAuth2\Response->addHttpHeaders
+228 10 -272
+cfl=(1)
+cfn=(46)
+calls=1 0 0
+230 0 272
+
+fl=(36)
+fn=(117) OAuth2\Controller\ResourceController->getAccessTokenData
+115 80 272
+cfl=(35)
+cfn=(112)
+calls=1 0 0
+118 116 0
+cfl=(35)
+cfn=(113)
+calls=1 0 0
+133 0 0
+cfl=(1)
+cfn=(114)
+calls=1 0 0
+133 1 320
+cfl=(33)
+cfn=(115)
+calls=1 0 0
+135 0 0
+cfl=(33)
+cfn=(116)
+calls=1 0 0
+142 11 0
+
+fl=(1)
+fn=(28)
+78 0 0
+
+fl=(36)
+fn=(118) OAuth2\Controller\ResourceController->verifyResourceRequest
+73 40 0
+cfl=(36)
+cfn=(117)
+calls=1 0 0
+75 211 592
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+78 0 0
+
+fl=(23)
+fn=(119) OAuth2\Server->verifyResourceRequest
+423 85 -368
+cfl=(1)
+cfn=(28)
+calls=1 0 0
+425 1 0
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+425 1083 50160
+cfl=(33)
+cfn=(91)
+calls=1 0 0
+425 60 -96
+cfl=(23)
+cfn=(106)
+calls=1 0 0
+426 2491 46000
+cfl=(36)
+cfn=(118)
+calls=1 0 0
+426 252 592
+
+fl=(23)
+fn=(120) OAuth2\Server->getResponse
+925 0 0
+
+fl=(1)
+fn=(121) php::headers_sent
+281 0 0
+
+fl=(33)
+fn=(122) OAuth2\Response->setHttpHeader
+220 0 0
+
+fl=(1)
+fn=(114)
+294 2 320
+
+fl=(1)
+fn=(123) php::header
+294 7 32
+
+fl=(33)
+fn=(124) OAuth2\Response->getHttpHeaders
+236 0 0
+
+fl=(1)
+fn=(114)
+297 0 320
+
+fl=(1)
+fn=(123)
+297 2 72
+
+fl=(1)
+fn=(114)
+297 0 320
+
+fl=(1)
+fn=(123)
+297 1 80
+
+fl=(33)
+fn=(125) OAuth2\Response->getResponseBody
+256 2 0
+
+fl=(33)
+fn=(126) OAuth2\Response->send
+278 120 -960
+cfl=(1)
+cfn=(121)
+calls=1 0 0
+281 0 0
+cfl=(33)
+cfn=(122)
+calls=1 0 0
+287 0 0
+cfl=(1)
+cfn=(114)
+calls=1 0 0
+294 2 320
+cfl=(1)
+cfn=(123)
+calls=1 0 0
+294 7 32
+cfl=(33)
+cfn=(124)
+calls=1 0 0
+296 0 0
+cfl=(1)
+cfn=(114)
+calls=1 0 0
+297 0 320
+cfl=(1)
+cfn=(123)
+calls=1 0 0
+297 2 72
+cfl=(1)
+cfn=(114)
+calls=1 0 0
+297 0 320
+cfl=(1)
+cfn=(123)
+calls=1 0 0
+297 1 80
+cfl=(33)
+cfn=(125)
+calls=1 0 0
+299 2 0
+
+fl=(39) C:\Users\cosmi\PhpstormProjects\OauthDF\resource.php
+fn=(127) {main}
+
+summary: 27396 504032
+
+1 364 888
+cfl=(29)
+cfn=(68)
+calls=1 0 0
+10 19192 371736
+cfl=(1)
+cfn=(7)
+calls=1 0 0
+13 967 34360
+cfl=(31)
+cfn=(84)
+calls=1 0 0
+13 2757 576
+cfl=(23)
+cfn=(119)
+calls=1 0 0
+13 3974 96288
+cfl=(23)
+cfn=(120)
+calls=1 0 0
+14 0 0
+cfl=(33)
+cfn=(126)
+calls=1 0 0
+14 139 184
+
