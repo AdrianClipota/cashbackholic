@@ -406,9 +406,6 @@ a.go2store {
 	border: 1px solid #770000;
 	background: #770000 url('../images/goto.png') no-repeat center right 4px;
     cursor: pointer;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
 	text-decoration: none;
 	margin: 5px 0;
 }
