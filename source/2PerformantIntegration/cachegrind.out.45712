@@ -1,0 +1,68 @@
+version: 1
+creator: xdebug 2.6.1 (PHP 7.2.9-dev)
+cmd: C:\Users\cosmi\PhpstormProjects\2PerformantIntegration\vendor\guzzlehttp\promises\src\TaskQueue.php
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(2)
+fn=(400) php::error_get_last
+24 0 0
+
+fl=(2)
+fn=(229)
+46 0 0
+
+fl=(59)
+fn=(283)
+43 0 0
+cfl=(2)
+cfn=(229)
+calls=1 0 0
+46 0 0
+
+fl=(59)
+fn=(401) GuzzleHttp\Promise\TaskQueue->GuzzleHttp\Promise\{closure}
+21 0 0
+cfl=(2)
+cfn=(400)
+calls=1 0 0
+24 0 0
+cfl=(59)
+cfn=(283)
+calls=1 0 0
+26 0 0
+
+fl=(2)
+fn=(93)
+62 0 0
+
+fl=(2)
+fn=(279)
+63 5007 -200
+
+fl=(26)
+fn=(349)
+60 0 -24
+cfl=(2)
+cfn=(93)
+calls=1 0 0
+62 0 0
+cfl=(2)
+cfn=(279)
+calls=1 0 0
+63 5007 -200
+
+fl=(24)
+fn=(350)
+166 0 0
+cfl=(26)
+cfn=(349)
+calls=1 0 0
+169 5007 -224
+
+fl=(35)
+fn=(402) GuzzleHttp\Handler\CurlMultiHandler->__destruct
+53 0 0
+
