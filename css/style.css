@@ -415,8 +415,8 @@ a.go2store {
 
 a:hover.go2store {
 	color: #FFFFFF;
-	background: #001726 url('../images/goto.png') no-repeat center right 3px;
-	border: 1px solid #001726;
+	background: #70078F url('../images/goto.png') no-repeat center right 3px;
+	border: 1px solid #70078F;
 	text-decoration: none;
 }
 
@@ -444,7 +444,7 @@ a.go2store_large {
 	padding: 11px 25px 11px 20px;
 	margin: 10px 0;
 	border: 1px solid #770000;
-	background: #770000 url('../images/goto.png') no-repeat center right 7px;
+	background: #70078F url('../images/goto.png') no-repeat center right 7px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -599,7 +599,7 @@ a:hover.go2store_large {
 	width: 100%;
 	text-align: center;
 	color: #FFFFFF;
-	background-color: #001726;
+	background-color: #70078F;
 	padding: 10px;
 	font-weight: bold;
 }
@@ -809,7 +809,7 @@ li {
 }
 
 #alphabet li a.active {
-	background: #001726;
+	background: #70078F;
 	color: #FFF;
 	padding: 2px 5px;
 }
@@ -1193,9 +1193,9 @@ table {
 }
 
 .featured_title {
-	color: #FC9207;
-	border-bottom: 1px solid #FEE4C1;
-	margin: 0;
+	color: #70078F;
+	border-bottom: 1px solid #70078F;
+	margin: 5px;
 }
 
 .featured_stores
@@ -1223,16 +1223,16 @@ table {
 
 .cashback {
 	font-size: 15px;
-	color: #F8A51B;
+	color: #70078F;
 	font-weight: bold;
 }
 
 .cashback_box {
 	float: right;
 	width: 100px;
-	background: #F1F9E0;
+	background: #70078F;
 	font-size: 15px;
-	color: #74bc00;
+	color: #fff;
 	font-weight: normal;
 	margin-left: 40px;
 	padding: 15px;
