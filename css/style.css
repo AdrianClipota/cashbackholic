@@ -175,7 +175,7 @@ a:hover.login {
 	width: 100%;
 	padding: 8px;
 	margin-bottom: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .box .top {
