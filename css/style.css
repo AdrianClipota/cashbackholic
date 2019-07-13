@@ -174,8 +174,8 @@ a:hover.login {
 .box {
 	width: 100%;
 	padding: 8px;
-	margin-bottom: 10px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+	margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .box .top {
@@ -1269,7 +1269,7 @@ table {
 }
 
 .item_store:hover{
-	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 	cursor: pointer;
 }
 
