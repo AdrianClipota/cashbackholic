@@ -77,7 +77,7 @@ padding: 7px 20px 7px 20px;
 	text-decoration:none;
 
 }
-.Signin 
+.Signin
 {
 	background-color:#1bb2d0;
 	color:#FFF;
@@ -142,7 +142,7 @@ padding: 7px 20px 7px 20px;
 	text-align:center;
 	padding-top: 20px;
 	margin:0px auto;
-	
+
 }
 .banner-search input
 {
@@ -176,7 +176,7 @@ width: 80%;
 	width:80px;
 	float:left;
 }
-.check-boxText 
+.check-boxText
 {
 	font-size:14px;
 	color:#CCC;
@@ -206,7 +206,7 @@ width: 80%;
 }
 .icon-col img
 {
-	
+
 	float:left;
 	clear:both;
 	margin-left: -8px;
@@ -284,7 +284,7 @@ text-align:left;
 	border-bottom:1px solid #eaeaea;
 	padding-bottom:5px;
 	margin-bottom: 16px;
-	
+
 }
 .product-col a
 {
@@ -393,7 +393,7 @@ width:100%;
 	font-weight:100;
 	line-height: 19px;
 	padding-bottom:9px;
-	
+
 }
 .reviews-col a
 {
@@ -435,11 +435,11 @@ padding: 7px 0px 9px 12px;
 }
 .menu-ctnr
 {
-	background-color:#770000; height: 65px; width:100%; clear:both; float:left; border-bottom:#ccc solid 2px; border-top:#eee solid 1px;
+	background-color:#365DBA; height: 65px; width:100%; clear:both; float:left;
 }
 
 
-.menu-ctnr .nav {font-size: 18px; font-family: 'Open Sans', sans-serif; font-weight: bold; background-color:#770000; }
+.menu-ctnr .nav {font-size: 18px; font-family: 'Open Sans', sans-serif; font-weight: bold; background-color:#365DBA; }
 .menu-ctnr .nav li a { color: #FFF; }
 
 h1 { border-bottom: 4px solid #F7F7F7; margin-top: 10px; margin-bottom: 10px; padding-bottom: 10px; }
@@ -507,7 +507,7 @@ h1 { border-bottom: 4px solid #F7F7F7; margin-top: 10px; margin-bottom: 10px; pa
 }
 .copun-head
 {
-	width:100%; clear:both; float:left; 
+	width:100%; clear:both; float:left;
 }
 .copun-head h2
 {
@@ -908,7 +908,7 @@ font-weight:600;
 	width:1000px;
 	clear:both;
 	float:left;
-	
+
 	border-radius:4px;
 	text-align:center;
 	padding:20px 0;
@@ -1001,10 +1001,10 @@ height:auto;
 }
 .button-get-code
 {
-	
+
 	font-size:16px;
 	font-weight:400;
-	
+
 	float:right;
 	position:absolute;
 	right:5px;
@@ -1364,13 +1364,13 @@ border-radius:3px;
 }
 .my-details
 {
-	font-size:21px; 
+	font-size:21px;
 	color:#2890bd;
 
 }
 .my-cashabck
 {
-	color:#fff; 
+	color:#fff;
 	font-size:21px !important;
 	background-color:#2890bd;
 	text-align:center;
@@ -1448,7 +1448,7 @@ border-radius:3px;
 	margin-bottom:20px;
 	font-size:12px;
 	clear:both;
-	
+
 }
 .form-dash button
 {
@@ -1530,7 +1530,7 @@ border-radius:3px;
 	margin-bottom:20px;
 	font-size:12px;
 	clear:both;
-	
+
 }
 .form-section button
 {
@@ -1945,7 +1945,7 @@ border-radius:3px;
 	background-color:#fff;
 	color:#666;
 	font-size:12px;
-	
+
 }
 .largeModel-2 {
     width: 750px !important;
@@ -2005,7 +2005,7 @@ border-radius:3px;
   background-image: none;
 }
 #first-slider .carousel .item {
-  min-height: 340px; 
+  min-height: 340px;
   height: 100%;
   width:100%;
 }
@@ -2040,7 +2040,7 @@ border-radius:3px;
 
 
 #first-slider h1 {
-  text-align: center;  
+  text-align: center;
   margin-bottom: 30px;
   font-size: 30px;
   font-weight: bold;
@@ -2211,7 +2211,7 @@ border-radius:3px;
 .logo img {width: 70%; float: left;}
 .menu-ctnr { position: absolute; top: 20px; right: 0px;  z-index:1001; background: transparent; border: none; }
 .reflink_textbox {font-size: 14px; width: 98%; display: block;}
-#copy-button {display: block; } 
+#copy-button {display: block; }
 .navbar-collapse {background: #770000; color: #000; }
 
 .advt1
@@ -2236,7 +2236,7 @@ border-radius:3px;
 	text-align:center;
 	margin-top:10px;
 	margin-bottom:0px;
-}	
+}
 .Signin
 {
 	background-color:#1bb2d0;
@@ -2261,7 +2261,7 @@ margin-top:20px;
 	text-decoration:none;
 
 }
-.Signin 
+.Signin
 {
 	background-color:#1bb2d0;
 	color:#FFF;
@@ -2336,7 +2336,7 @@ clear:both;
 	text-transform:uppercase;
 	border:none;
 	padding: 10px 25px 10px 25px;
-	
+
 }
 .check-boxText {
     font-size: 14px;
@@ -2381,7 +2381,7 @@ clear:both;
 }
 .icon-col img
 {
-	
+
 	float:left;
 	clear:both;
 	margin-left: -8px;
@@ -2434,7 +2434,7 @@ text-align:left;
 .banner-slide
 {
 	display: none;
-	
+
 }
 .heading
 {
@@ -2477,7 +2477,7 @@ text-align:left;
 	text-align:center;
 	font-size:13px;
 }
-.advt-ctnr 
+.advt-ctnr
 {
 	display:none;
 }
@@ -2516,7 +2516,7 @@ text-align:left;
 }
 .copun-head
 {
-	width:100%; clear:both; float:left; 
+	width:100%; clear:both; float:left;
 }
 .copun-head h2
 {
@@ -2537,7 +2537,7 @@ text-align:left;
 }
 .subscribe-btn
 {
-	width:100%; clear:both; float:left; 
+	width:100%; clear:both; float:left;
 	margin:20px 0px 10px 0px;
 }
 .subscribe-btn a
@@ -2771,7 +2771,7 @@ text-align:left;
 }
 .categroy-head
 {
-	
+
 	padding:7px 0px;
 	color:#258fbc;
 	font-weight:400;
@@ -2779,5 +2779,3 @@ text-align:left;
 	width:80px;
 }
 }
-
-

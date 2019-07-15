@@ -404,7 +404,7 @@ a.go2store {
 	padding: 5px 18px 5px 10px;
     display: block;
 	border: 1px solid #365DBA;
-	background: #365DBA url('../images/goto.png') no-repeat center right 4px;
+	background: #CB5D2C url('../images/goto.png') no-repeat center right 4px;
     cursor: pointer;
 	text-decoration: none;
 	margin: 5px 0;
@@ -412,7 +412,7 @@ a.go2store {
 
 a:hover.go2store {
 	color: #FFFFFF;
-	background: #C1DCF1 url('../images/goto.png') no-repeat center right 3px;
+	background: #E27145 url('../images/goto.png') no-repeat center right 3px;
 	border: 1px solid #C1DCF1;
 	text-decoration: none;
 }
@@ -421,14 +421,14 @@ a.go2store_b {
 	background: url('../images/arrow.png') no-repeat right 1px;
 	padding: 0px 18px 8px 0;
 	font-size: 13px;
-	color: #3494CF;
+	color: #CB5D2C;
 	font-weight: bold;
 	white-space: nowrap;
 	text-decoration: underline;
 }
 
 a:hover.go2store_b {
-	color: #191919;
+	color: #E27145;
 	text-decoration: none;
 }
 
@@ -441,7 +441,7 @@ a.go2store_large {
 	padding: 11px 25px 11px 20px;
 	margin: 10px 0;
 	border: 1px solid #365DBA;
-	background: #C1DCF1 url('../images/goto.png') no-repeat center right 7px;
+	background: #CB5D2C url('../images/goto.png') no-repeat center right 7px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -455,8 +455,8 @@ a.go2store_large {
 
 a:hover.go2store_large {
 	color: #FFFFFF;
-	background: #0bb586 url('../images/goto.png') no-repeat center right 3px;
-	border: 1px solid #0bb586;
+	background: #E27145 url('../images/goto.png') no-repeat center right 3px;
+	border: 1px solid #E27145;
 	text-decoration: none;
 }
 
@@ -1271,6 +1271,7 @@ table {
 .item_store:hover{
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 	cursor: pointer;
+  transform: scale(1.05);
 }
 
 .item_coupon {
