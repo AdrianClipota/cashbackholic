@@ -403,7 +403,6 @@ a.go2store {
 	white-space: nowrap;
 	padding: 5px 18px 5px 10px;
     display: block;
-	border: 1px solid #365DBA;
 	background: #CB5D2C url('../images/goto.png') no-repeat center right 4px;
     cursor: pointer;
 	text-decoration: none;
@@ -413,7 +412,7 @@ a.go2store {
 a:hover.go2store {
 	color: #FFFFFF;
 	background: #E27145 url('../images/goto.png') no-repeat center right 3px;
-	border: 1px solid #C1DCF1;
+
 	text-decoration: none;
 }
 
@@ -440,7 +439,6 @@ a.go2store_large {
 	white-space: nowrap;
 	padding: 11px 25px 11px 20px;
 	margin: 10px 0;
-	border: 1px solid #365DBA;
 	background: #CB5D2C url('../images/goto.png') no-repeat center right 7px;
     border: none;
     cursor: pointer;
@@ -456,7 +454,6 @@ a.go2store_large {
 a:hover.go2store_large {
 	color: #FFFFFF;
 	background: #E27145 url('../images/goto.png') no-repeat center right 3px;
-	border: 1px solid #E27145;
 	text-decoration: none;
 }
 
@@ -596,7 +593,7 @@ a:hover.go2store_large {
 	width: 100%;
 	text-align: center;
 	color: #FFFFFF;
-	background-color: #C1DCF1;
+	background-color: #E27145;
 	padding: 10px;
 	font-weight: bold;
 }
@@ -806,7 +803,7 @@ li {
 }
 
 #alphabet li a.active {
-	background: #C1DCF1;
+	background: #E27145;
 	color: #FFF;
 	padding: 2px 5px;
 }
