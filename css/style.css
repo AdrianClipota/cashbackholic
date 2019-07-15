@@ -76,31 +76,31 @@ a.signup {
 	font-weight: bold;
 	padding: 6px 10px;
 	margin-right: 3px;
-	background: #770000;
-	border: 1px solid #770000;
+	background: #365DBA;
+	border: 1px solid #365DBA;
 	text-decoration: none;
 }
 
 a:hover.signup {
 	color: #FFFFFF;
-	background: #3C1518;
-	border: 1px solid #3C1518;
+	background: #234372;
+	border: 1px solid #234372;
 }
 
 a.login {
-	color: #770000;
+	color: #365DBA;
 	font-weight: bold;
 	padding: 6px 10px;
 	background: #FFFFFF;
-	border: 1px solid #770000;
+	border: 1px solid #365DBA;
 	text-decoration: none;
 
 }
 
 a:hover.login {
-	color: #3C1518;
+	color: #234372;
 	background: #ffffff;
-	border: 1px solid #3C1518;
+	border: 1px solid #234372;
 }
 
 .member {
@@ -140,7 +140,7 @@ a:hover.login {
 
 .navbar-default .navbar-nav > li > a:hover {
 	color: #FFF;
-	background: #3C1518;
+	background: #234372;
 	text-decoration: none;
 	padding: 20px 19px 20px 19px;
 }
@@ -151,7 +151,7 @@ a:hover.login {
 }
 
 .navbar-default .navbar-nav > li > .home:hover {
-	background: #3C1518 url('../images/home.png') no-repeat 15px;
+	background: #234372 url('../images/home.png') no-repeat 15px;
 	padding-left: 38px;
 }
 
@@ -165,7 +165,7 @@ a:hover.login {
 #body-ctnr h1 {
 	padding: 0 0 3px 0;
 	margin-bottom: 10px;
-	border-bottom: 2px solid #770000;
+	border-bottom: 2px solid #365DBA;
 }
 
 
@@ -403,8 +403,8 @@ a.go2store {
 	white-space: nowrap;
 	padding: 5px 18px 5px 10px;
     display: block;
-	border: 1px solid #770000;
-	background: #770000 url('../images/goto.png') no-repeat center right 4px;
+	border: 1px solid #365DBA;
+	background: #365DBA url('../images/goto.png') no-repeat center right 4px;
     cursor: pointer;
 	text-decoration: none;
 	margin: 5px 0;
@@ -412,8 +412,8 @@ a.go2store {
 
 a:hover.go2store {
 	color: #FFFFFF;
-	background: #70078F url('../images/goto.png') no-repeat center right 3px;
-	border: 1px solid #70078F;
+	background: #C1DCF1 url('../images/goto.png') no-repeat center right 3px;
+	border: 1px solid #C1DCF1;
 	text-decoration: none;
 }
 
@@ -440,8 +440,8 @@ a.go2store_large {
 	white-space: nowrap;
 	padding: 11px 25px 11px 20px;
 	margin: 10px 0;
-	border: 1px solid #770000;
-	background: #70078F url('../images/goto.png') no-repeat center right 7px;
+	border: 1px solid #365DBA;
+	background: #C1DCF1 url('../images/goto.png') no-repeat center right 7px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -497,7 +497,7 @@ a:hover.go2store_large {
 .xlist .ac_image { float:left; margin-right:5px; width:55px; text-align:center; overflow:hidden; }
 .xlist .ac_result { float:left; width:160px; padding-top: 5px; vertical-align: middle; overflow:hidden; }
 .xlist img { height:25px; border: 1px solid #F5F5F5; }
-.xlist .ac_cashback { color: #770000; }
+.xlist .ac_cashback { color: #365DBA; }
 .xlist .ac_website { font-size: 13px; color: #BFBFBF; }
 
 
@@ -596,7 +596,7 @@ a:hover.go2store_large {
 	width: 100%;
 	text-align: center;
 	color: #FFFFFF;
-	background-color: #70078F;
+	background-color: #C1DCF1;
 	padding: 10px;
 	font-weight: bold;
 }
@@ -695,7 +695,7 @@ li {
 }
 
 #popular_list li a:hover {
-	color: #3C1518;
+	color: #234372;
 	text-decoration: none;
 }
 
@@ -806,7 +806,7 @@ li {
 }
 
 #alphabet li a.active {
-	background: #70078F;
+	background: #C1DCF1;
 	color: #FFF;
 	padding: 2px 5px;
 }
@@ -831,7 +831,7 @@ h1 {
 	font-family: 'Open Sans Condensed', Times, Arial, Verdana, sans-serif;
 	font-size: 29px;
 	font-weight: 100;
-	color: #7700000;
+	color: #365DBA0;
 	margin: 5px 0;
 	padding: 0;
 }
@@ -873,7 +873,7 @@ h4 {
 	font-family: 'Open Sans Condensed', Times, Arial, Verdana, sans-serif;
 	font-size: 22px;
 	font-weight: normal;
-	color: #3C1518;
+	color: #234372;
 	margin: 0;
 	padding: 0;
 }
@@ -1084,7 +1084,7 @@ a:hover .imgs {
 	text-align: center;
 	padding: 2px 0 0 0;
 	font-weight: bold;
-	color: #770000;
+	color: #365DBA;
 	font-size: 15px;
 	clear: both;
 }
@@ -1190,8 +1190,8 @@ table {
 }
 
 .featured_title {
-	color: #70078F;
-	border-bottom: 1px solid #70078F;
+	color: #C1DCF1;
+	border-bottom: 1px solid #C1DCF1;
 	margin: 5px;
 }
 
@@ -1220,14 +1220,14 @@ table {
 
 .cashback {
 	font-size: 15px;
-	color: #70078F;
+	color: #C1DCF1;
 	font-weight: bold;
 }
 
 .cashback_box {
 	float: right;
 	width: 100px;
-	background: #70078F;
+	background: #C1DCF1;
 	font-size: 15px;
 	color: #fff;
 	font-weight: normal;
@@ -1439,8 +1439,8 @@ form {
 }
 
 .submit:hover {
-	border: 1px solid #3C1518;
-	background: #3C1518;
+	border: 1px solid #234372;
+	background: #234372;
 	color: #FFFFFF;
 }
 
@@ -1541,8 +1541,8 @@ div.pagination span.disabled {
 }
 
 div.pagination span.curPage {
-	background: #770000;
-	border: 1px solid #770000;
+	background: #365DBA;
+	border: 1px solid #365DBA;
 	padding: 6px 11px;
 	color: #FFFFFF;
 	margin: 1px;
@@ -2245,7 +2245,7 @@ ol#controls li a {
 	line-height: 16px;
 	background: #EEE;
 	border: 1px solid #EEE;
-	color: #3C1518;
+	color: #234372;
 	padding: 0 4px;
 	text-decoration: none;
 }
@@ -2264,7 +2264,7 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {outline:none;}
 	float:left;
 	height: 180px;
 	color: #FFF;
-	background: #770000;
+	background: #365DBA;
 	margin-top: 20px;
 }
 
